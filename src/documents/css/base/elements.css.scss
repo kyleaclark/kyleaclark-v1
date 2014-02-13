@@ -1,0 +1,181 @@
+@import "../_global.scss";
+
+#site-title {
+  color: $brand-color;
+  font-family: 'Lobster', Helvetica, Arial, Sans-Serif;
+  font-size: $huge-size;
+  font-weight: 700;
+  margin: 0;
+}
+
+.projects {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;         
+}
+
+aside .help {
+  font-size: .85em;
+  font-weight: 700;
+  color: $hover-color;
+}
+
+.contact {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.contact a {
+  font-size: $small-size;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+img.about-img {
+  border: 1px solid $text-color-lighter;
+  width: 220px;
+  height: 290px;
+  box-shadow: 5px 10px 10px rgba($text-color,0.4);
+}
+
+.demo-tile-container {
+  display: block;
+  width: 84%;
+  background-color: $bg-color;
+     margin: 0px 10px 22px 15px;
+    padding: 10px;
+    text-align: center;
+     box-shadow: 0 5px 5px rgba($text-color,0.3);
+}
+
+.project-header {
+  margin-bottom: 10px;
+
+  h3 {
+    color: $brand-color-dark;
+    font-size: $regular-size;
+    font-weight: bold;
+    margin: 0px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
+
+.project-sidebar {
+  display: block;
+  font-size: $small-size;
+  padding: 1%;
+  text-align: left;
+
+  ul {
+    padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.project-content {
+  color: $text-color;
+  display: block;
+  font-size: $small-size;
+  padding: 1%;
+  text-align: left;
+
+  ul {
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+
+  .demo-tile .name {
+    
+    
+  }
+            
+  .demo-tile .name a {
+    text-decoration: none;
+   }
+            
+  .demo-tile .name a:hover {         
+    font-size: 1.05em;    
+  }
+
+  .demo-tile .demo-github a {
+    
+  }
+
+  .demo-tile .date {
+    font-size: .80em; 
+    margin-top: 2px;
+  }
+
+.ui-tooltip-wiki{
+    max-width: 5px;
+  padding: 5px;
+}
+
+
+.my-photo img {
+    width: 55px;
+    height: 72px;
+    border: 1px solid $text-color-lighter;
+}
+
+.main-tile
+{
+  width: 560px;
+  float: left;
+} 
+
+.blue-square {
+  margin-left: 0px;
+  padding-left: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.blue-square li {
+  list-style-type: square;
+  color: $link-color-dark;
+
+  span {
+    color: $text-color-light;
+  }
+}
+
+.blue-square li a {
+  color: $link-color;
+}
+
+.blue-square li a:hover {
+  color: $brand-color-light;
+}
+
+.pink-square {
+  margin-left: 0px;
+  padding-left: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.pink-square li {
+  list-style-type: square;
+  color: $hover-color;
+}
+
+.projects {
+  .name {
+    color: $brand-color-dark;
+    font-size: $small-size;
+  }
+}

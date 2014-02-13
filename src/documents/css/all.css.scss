@@ -4,8 +4,23 @@
 
 /* --- [ Common ] --- */
 
+/*
 @import "base/helpers.css";
 @import "base/typography.css";
 @import "base/layout.css";
+@import "base/elements.css";
+@import "base/responsive.css";
+*/
 
 /* --- [ Components ] --- */
+
+@import "base/all.css";
+
+/* --- [ Partials ] --- */
+
+@import "partials/footer.css";
+
+
+/* --- [ Views ] --- */
+
+@import "views/projects.css";

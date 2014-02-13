@@ -1,5 +1,142 @@
 @import "../_global.scss";
 
+html {
+    background-color: $bg-color;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  margin: 0 auto;
+    background-color: $bg-color;
+    border-top: solid 10px $text-color;
+    color: $text-color-light;
+    font-family: 'Droid Serif', Arial, Verdana, Helvetica, Sans-Serif;
+    font-size: $regular-size;
+    margin: 0;
+    padding: 0 5px;
+}
+
+a {
+    outline: none;
+	text-decoration: none;
+}
+
+    a:link, a:visited, a:active {
+        color: $link-color-light;
+    }
+
+    a:hover {
+        background-color: $hover-color;
+        color: $brand-color-light;
+    }
+
+header, footer, hgroup,
+nav, section {
+    display: block;
+}
+
+h2 {
+  color: $brand-color-dark;
+  font-size: $regular-size;
+  font-weight: bold;
+  margin: 0px 0px 8px 0px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: $brand-color-dark;
+  font-size: $small-size;
+  margin: 0;
+  padding: 0;
+}
+
+/* main layout
+----------------------------------------------------------*/
+header .content-wrapper {
+    padding: 3% 1% 0 1%;
+}
+
+div.content-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#body {
+    clear: both;
+    padding: 3% 0px 8% 0px;
+}
+
+#body > div:first-child {
+  float: left;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+#body > div:first-child + div {
+  float: left;
+  width: 100%;
+}
+
+footer {
+    clear: both;
+    font-size: $small-size;
+    height: 50px;
+}
+
+
+#body > div:first-child nav {
+  paddin-bottom: 0px;
+}
+
+#body > div:first-child nav ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#body > div:first-child nav ul li {
+  display: inline;
+  list-style-type: none;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 2% 0 0;
+}
+
+#body > div:first-child aside > div:first-child,
+#body > div:first-child aside > div:first-child + div {
+  float: left;
+  margin-top: 20px;
+  width: 65px;
+  text-align: center;
+}
+
+#body > div:first-child aside > div:first-child {
+  margin-right: 1%;
+}
+
+.contact .info-container {
+  float: left; width: 100%;
+}
+
+.about-me-container {
+  float: left;
+  width: 280px;
+}
+
+#my-pic {
+  display: none;
+}
+
+.about-img-container {
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+}
+
+#body > div:first-child header, 
+#body > div:first-child + div header, 
+.content-wrapper .portfolio header {
+  font-weight: 700;
+  color: $brand-color-dark;
+  text-transform: uppercase;
 }

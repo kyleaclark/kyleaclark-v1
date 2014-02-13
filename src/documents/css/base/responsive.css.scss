@@ -1,0 +1,133 @@
+@import "../_global.scss";
+
+/* MEDIA QUERIES
+***********************************************************/
+
+@media screen and (min-width: 420px) and (max-width: 619px) {
+  header .content-wrapper {
+    padding-top: 20px;
+  }
+
+  .content-wrapper {
+    margin: 0 auto;
+    max-width: 420px;
+  }
+
+  #body {
+    clear: both;
+    padding: 15px 0px 35px 0px;
+  }
+
+  .content-wrapper > div:first-child {
+    float: left;
+    width: 100%;
+  }
+
+  .content-wrapper > div:first-child + div {
+    float: left;
+    width: 100%;
+  }
+
+  footer {
+    clear: both;
+    font-size: $small-size;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+
+  header .content-wrapper {
+    padding: 1% 0 0 0;
+  }
+
+  div.content-wrapper {
+    margin: 0 auto;
+    width: 620px;
+    max-width: 620px;
+  }
+
+  #body {
+    padding: 1% 0 3% 0;
+  }
+
+  #body > div:first-child {
+    float: left;
+    width: 200px;
+  }
+
+  #body > div:first-child + div {
+    float: left;
+    width: 420px;
+  }
+
+  #body > div:first-child nav ul li {
+    display: block;
+    font-size: $big-size;
+    padding: 0 0 5% 0;
+  }
+
+  #body > div-first-child nav ul li a {
+    text-decoration: none;
+  }
+
+  #my-pic {
+    display: block;
+    background: transparent url("../Images/kyle-a-clark.jpg") no-repeat scroll center;
+    border: 1px solid $text-color-lighter;
+    width: 55px;
+    height: 72px;
+  }
+
+  .demo-tile-container {
+	   width: 90%;
+  }
+
+  .project-sidebar {
+  display: inline-block;
+  font-size: $small-size;
+  text-align: left;
+  padding: 0;
+  padding-left: 5px;
+  vertical-align: top;
+  width: 20%;
+
+  ul {
+    padding-left: 10px;
+  }
+
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.project-content {
+  border-left: 1px dashed rgba($text-color, 0.4);
+  display: inline-block;
+  font-size: $small-size;
+  width: 72%;
+  padding: 0;
+  padding-left: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+  footer {
+    clear: both;
+    font-size: $small-size;
+    height: 50px;
+  }
+}
+
+hr {
+  border: 1px dashed $hover-color;
+  height: 0px;
+  background: $bg-color;
+}
+
+hr.pink-line {
+  border: 1px dotted $hover-color;
+  height: 0px;
+  background: $bg-color;
+}

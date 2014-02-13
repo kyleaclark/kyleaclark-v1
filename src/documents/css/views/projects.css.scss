@@ -1,0 +1,108 @@
+@import "../_global.scss";
+
+.project-container {
+  box-shadow: 0 5px 5px rgba($text-color, 0.3);
+  display: block;
+  width: 84%;
+  background-color: $bg-color;
+  margin: 0px 10px 22px 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+@include apply-to(min-width, 640px) {
+  .project-container {
+    width: 90%;
+  }
+}
+
+.project-header {
+  margin-bottom: 5px;
+
+  h3 {
+    color: $brand-color-dark;
+    font-size: $mediumSize;
+    font-weight: bold;
+    margin: 0px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  hr {
+    border: 1px solid $text-color-lighter;
+    border-color: rgba($text-color-lighter, 0.2);
+    margin-top: .25em;
+  }
+}
+
+.project-sidebar {
+  display: block;
+  font-size: $small-size;
+  padding: 1%;
+  text-align: left;
+
+  ul {
+    padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  a {
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+@include apply-to(min-width, 640px) {
+  .project-sidebar {
+    display: inline-block;
+    padding: 0 0 0 5px;
+    vertical-align: top;
+    width: 20%;
+  }
+}
+
+.project-content {
+  display: block;
+  font-size: $small-size;
+  padding: 1%;
+  text-align: left;
+
+  ul {
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  li span {
+    color: $text-color-lighter;
+  }
+}
+
+@include apply-to(min-width, 640px){
+  .project-content {
+    border-left: 1px dashed rgba($text-color, 0.4);
+    display: inline-block;
+    width: 72%;
+    padding: 0 0 0 15px;
+    text-align: left;
+    vertical-align: top;
+  }
+}
+
+.project-technologies {
+  color: $textColorLightest;
+  display: block; 
+  font-size: $small-size; 
+  margin-top: 15px;
+  text-align: left;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.project-techs-used {
+  color: $text-color-lighter;
+}
