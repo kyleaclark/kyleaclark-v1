@@ -2,4 +2,13 @@
 layout: base
 ---
 
+<%- @partial "header.html", @ %>
+
+<div class="content-wrapper" id="body">
+  <%- @partial "sidebar.html", @ %>
+
   <%- @content %>
+</div>
+
+<%- @partial "footer.html", @ %>
+  
