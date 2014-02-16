@@ -65,6 +65,6 @@ module.exports = function (grunt) {
   grunt.registerTask("prepare", ["clean:bower", "bower:install", "dependency_installer"]);
   grunt.registerTask("build", ["node_version", "prepare", "exec:buildSite"]);
   grunt.registerTask("serve", ["node_version", "exec:serve"]);
-  grunt.registerTask("production", ["node_version", "jshint", "exec:production"]);
+  grunt.registerTask("production", ["node_version", "exec:production"]);
   grunt.registerTask("run-server", ["exec:runServer"]);
 };

@@ -1,0 +1,61 @@
+@import "../_global.scss";
+
+.header-content {
+  padding: 15px 0 40px 0;
+  
+	.column-one {
+    float: left;
+    width: 50%;
+  }
+
+  .column-two {
+    float: left;
+    text-align: right;
+    width: 50%;
+  }
+}
+
+.header-logo-name {
+  color: $colorSnazzy;
+  font-size: $fontSizeLarge;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  span {
+    font-style: italic;
+    font-weight: 300;
+    text-transform: none;
+  }
+
+  &:hover {
+    color: $colorSnazzy;
+  }
+}
+
+.header-nav {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    padding-left: 25px;
+  }
+
+  a {
+    color: $colorSkinWhitespace;
+    font-size: $fontSizeMedium;
+    font-weight: 500;
+    line-height: $fontSizeLarge;
+  }
+
+  a:hover {
+    color: $colorTextLight;
+  }
+}
+
+.header-nav-link {
+  color: red;
+}
