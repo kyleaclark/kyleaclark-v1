@@ -1,3 +1,7 @@
-.footer-copyright {
-  margin-top: 5px;
+@import "../_global.scss";
+
+.footer-content {
+  color: $colorSnazzy;
+  font-size: $fontSizeTiny;
+  font-weight: 600;
 }

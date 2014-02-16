@@ -1,142 +1,54 @@
 @import "../_global.scss";
 
-html {
-    background-color: $bg-color;
-    margin: 0;
-    padding: 0;
+/* Apply a natural box layout model to all elements */
+*, 
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-body {
-    background-color: $bg-color;
-    border-top: solid 10px $text-color;
-    color: $text-color-light;
-    font-family: 'Droid Serif', Arial, Verdana, Helvetica, Sans-Serif;
-    font-size: $regular-size;
-    margin: 0;
-    padding: 0 5px;
-}
-
-a {
-    outline: none;
-	text-decoration: none;
-}
-
-    a:link, a:visited, a:active {
-        color: $link-color-light;
-    }
-
-    a:hover {
-        background-color: $hover-color;
-        color: $brand-color-light;
-    }
-
-header, footer, hgroup,
-nav, section {
-    display: block;
-}
-
-h2 {
-  color: $brand-color-dark;
-  font-size: $regular-size;
-  font-weight: bold;
-  margin: 0px 0px 8px 0px;
-  text-transform: uppercase;
-}
-
-h4 {
-  color: $brand-color-dark;
-  font-size: $small-size;
-  margin: 0;
-  padding: 0;
-}
-
-/* main layout
-----------------------------------------------------------*/
-header .content-wrapper {
-    padding: 3% 1% 0 1%;
-}
-
-div.content-wrapper {
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-#body {
-    clear: both;
-    padding: 3% 0px 8% 0px;
-}
-
-#body > div:first-child {
-  float: left;
-  width: 100%;
-  padding-bottom: 5%;
-}
-
-#body > div:first-child + div {
+.container {
   float: left;
   width: 100%;
 }
 
-footer {
-    clear: both;
-    font-size: $small-size;
-    height: 50px;
+.content-container {
+  margin: 0 auto;
+  width: $bodySizeDesktop;
 }
 
-
-#body > div:first-child nav {
-  paddin-bottom: 0px;
-}
-
-#body > div:first-child nav ul {
-  margin: 0;
-  padding: 0;
-  
-}
-
-#body > div:first-child nav ul li {
-  display: inline;
-  list-style-type: none;
-  font-weight: 700;
-  margin: 0;
-  padding: 0 2% 0 0;
-}
-
-#body > div:first-child aside > div:first-child,
-#body > div:first-child aside > div:first-child + div {
+.content {
   float: left;
-  margin-top: 20px;
-  width: 65px;
-  text-align: center;
+  padding: 40px 5px 20px;
+  width: 100%;
+
+  @include apply-to(min-width, $bodySizeTablet) {
+    width: 80%;
+  }
 }
 
-#body > div:first-child aside > div:first-child {
-  margin-right: 1%;
+.header, .footer {
+  background-color: $colorSkinPrimary;
+  z-index: 1000;
 }
 
-.contact .info-container {
-  float: left; width: 100%;
+.about, .skills, .contact {
+  background-color: $colorSkinSecondary;
+  border-bottom: 1px solid rgba($colorTextLight, 0.4);
 }
 
-.about-me-container {
-  float: left;
-  width: 280px;
+.about {
+  background-color: $colorSkinPrimaryLightest;
 }
 
-#my-pic {
-  display: none;
+.background, .experience, .education {
+  background-color: $colorSkinWhitespace;
+  border-bottom: 1px solid rgba($colorTextLight, 0.4);
 }
 
-.about-img-container {
-  float: left;
-  width: 240px;
-  margin-left: 40px;
+.background {
+  background-color: $colorSkinSecondary;
 }
 
-#body > div:first-child header, 
-#body > div:first-child + div header, 
-.content-wrapper .portfolio header {
-  font-weight: 700;
-  color: $brand-color-dark;
-  text-transform: uppercase;
-}

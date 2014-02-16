@@ -1,35 +1,4 @@
 /*=============================
-  BASE COLORS
--------------------------------*/
-
-$black: #000;
-$white: #fff;
-
-$bg-color: #fefefe;
-$brand-color: #8ACF5A;
-$brand-color-light: lighten( $brand-color, 15% );
-$brand-color-dark: darken( $brand-color, 6% );
-$text-color: #333333;
-$text-color-light: lighten( $text-color, 15% );
-$text-color-lighter: lighten( $text-color, 34% );
-$textColorLightest: lighten( $text-color, 42% );
-$link-color: #29ABE2;
-$link-color-light: lighten( $link-color, 15% );
-$link-color-dark: darken( $link-color, 6% );
-$hover-color: #D05959;
-$hoverColor: #D05959;
-
-/*=============================
-  SIZE VALUES
--------------------------------*/
-
-$regular-size: 0.95em;
-$mediumSize: 1.05em;
-$small-size: 0.80em;
-$big-size: 1.25em;
-$huge-size: 2.25em;
-
-/*=============================
   FORMULAS
 -------------------------------*/
 

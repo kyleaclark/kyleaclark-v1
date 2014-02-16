@@ -4,23 +4,30 @@
 
 /* --- [ Common ] --- */
 
-/*
 @import "base/helpers.css";
 @import "base/typography.css";
-@import "base/layout.css";
 @import "base/elements.css";
-@import "base/responsive.css";
-*/
-
-/* --- [ Components ] --- */
-
-@import "base/all.css";
-
-/* --- [ Partials ] --- */
-
-@import "partials/footer.css";
-
+@import "base/layout.css";
 
 /* --- [ Views ] --- */
 
 @import "views/projects.css";
+
+/* --- [ Components ] --- */
+
+@import "components/navSlider.css";
+@import "components/slideTitleContainer.css";
+
+/* --- [ Partials ] --- */
+
+/* Shared */
+@import "partials/header.css";
+@import "partials/footer.css";
+
+/* Home */
+@import "partials/about.css";
+@import "partials/background.css";
+
+
+
+

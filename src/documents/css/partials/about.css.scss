@@ -1,0 +1,32 @@
+@import "../_global.scss";
+
+.about-content {
+  margin-top: 40px;
+  
+	h1 {
+    color: $colorText;
+    font-size: $fontSizeDouble;
+    margin: 0;
+  }
+
+  h2 {
+    color: $colorTextLight;
+    margin-top: 0;
+  }
+}
+
+.about-block-desc {
+  float: left;
+  width: 58%;
+}
+
+.about-block-pic {
+  float: left;
+  width: 42%;
+}
+
+#my-pic {
+  border: 3px dashed $colorBorder;
+  box-shadow: 6px 10px 10px rgba($colorBorder, 0.4);
+  margin-bottom: 10px;
+} 

@@ -1,10 +1,10 @@
 @import "../_global.scss";
 
 .project-container {
-  box-shadow: 0 5px 5px rgba($text-color, 0.3);
+  box-shadow: 0 5px 5px rgba($colorText, 0.3);
   display: block;
   width: 84%;
-  background-color: $bg-color;
+  background-color: $colorSkinWhitespace;
   margin: 0px 10px 22px 15px;
   padding: 10px;
   text-align: center;
@@ -20,8 +20,8 @@
   margin-bottom: 5px;
 
   h3 {
-    color: $brand-color-dark;
-    font-size: $mediumSize;
+    color: $colorSkinPrimary;
+    font-size: $fontSizeMedium;
     font-weight: bold;
     margin: 0px;
     text-align: left;
@@ -29,15 +29,15 @@
   }
 
   hr {
-    border: 1px solid $text-color-lighter;
-    border-color: rgba($text-color-lighter, 0.2);
+    border: 1px solid $colorTextLight;
+    border-color: rgba($colorTextLight, 0.2);
     margin-top: .25em;
   }
 }
 
 .project-sidebar {
   display: block;
-  font-size: $small-size;
+  font-size: $fontSizeSmall;
   padding: 1%;
   text-align: left;
 
@@ -64,7 +64,7 @@
 
 .project-content {
   display: block;
-  font-size: $small-size;
+  font-size: $fontSizeSmall;
   padding: 1%;
   text-align: left;
 
@@ -76,13 +76,13 @@
   }
 
   li span {
-    color: $text-color-lighter;
+    color: $colorTextLight;
   }
 }
 
 @include apply-to(min-width, 640px){
   .project-content {
-    border-left: 1px dashed rgba($text-color, 0.4);
+    border-left: 1px dashed rgba($colorText, 0.4);
     display: inline-block;
     width: 72%;
     padding: 0 0 0 15px;
@@ -92,9 +92,9 @@
 }
 
 .project-technologies {
-  color: $textColorLightest;
+  color: $colorTextLight;
   display: block; 
-  font-size: $small-size; 
+  font-size: $fontSizeSmall; 
   margin-top: 15px;
   text-align: left;
 
@@ -104,5 +104,5 @@
 }
 
 .project-techs-used {
-  color: $text-color-lighter;
+  color: $colorTextLight;
 }
