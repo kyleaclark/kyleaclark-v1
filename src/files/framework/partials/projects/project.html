@@ -1,0 +1,43 @@
+ <header class="project-header">
+  <section class="slide-title-container">
+    <div class="slide-title-content">
+      <h2 class="slide-title">{{project.title}}</h2>
+    </div>
+    <div class="slide-title-arrow-outline"></div>
+    <div class="slide-title-arrow"></div>
+  </section>
+
+  <section class="project-block-blurb">
+    <div>
+      <h4>Personal application created in JavaScript</h4>
+    </div>
+  </section>
+</header>
+
+
+<section class="project-block-desc">
+  <div>
+    <h4>The Deets</h4>
+    <ul>
+      <li><span>Created: {{project.created | date:'MM/yyyy'}}</span></li>
+      <li><span>Last Updated: {{project.updated | date:'shortDate'}}</span></li>
+      <li data-ng-repeat="description in project.descriptions"><span>{{description.content}}</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="project-block-sidebar">
+  <div>
+    <h4>Check It Out</h4>
+    <ul>
+      <li data-ng-repeat="reference in project.references"><a href="{{reference.url}}" target="_blank" title="{{reference.name}}">{{reference.name}}</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="project-block-techs">
+  <div>
+    <h4>Technologies Utilized</h4>
+    <p><span style="font-size: 1em" data-ng-repeat="tech in project.technologies">{{tech.name}}<span data-ng-show="!$last ">, </span></span>.</p>
+  </div>
+</section>

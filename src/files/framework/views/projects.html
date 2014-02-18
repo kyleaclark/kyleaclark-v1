@@ -1,25 +1,21 @@
-<div class="primary" data-ng-controller="ProjectsController">
+<!-- HOME VIEW -->
 
-  <div class="project-container" data-ng-repeat="project in projects | orderBy:'-updated'">
-    <header class="project-header">
-      <h3>{{project.title}}</h3>
-      <hr />
-    </header>
-    <section class="project-sidebar">
-      <ul class="pink-square">
-        <li data-ng-repeat="reference in project.references"><a href="{{reference.url}}" target="_blank" title="{{reference.name}}">{{reference.name}}</a></li>
-      </ul>
-    </section>
-    <section class="project-content">
-      <ul class="blue-square">
-        <li><span>Created: {{project.created | date:'MM/yyyy'}}</span></li>
-        <li><span>Last Updated: {{project.updated | date:'shortDate'}}</span></li>
-        <li data-ng-repeat="description in project.descriptions"><span>{{description.content}}</span></li>
-      </ul>
-    </section>
-    <section class="project-technologies">
-      <p><span class="project-techs-used"><em>Technologies Used</em></span><br /> <span style="font-size: 1em" data-ng-repeat="tech in project.technologies">{{tech.name}}<span data-ng-show=" ! $last ">, </span></span></p>
-    </section>
+<div class="clear"></div>
+
+<nav class="container nav-slider">
+  <div class="content-container nav-slider-content">
+    <div data-ng-include="'/framework/partials/projects/navSlider.html'" />
   </div>
+</nav>
+
+<div data-ng-controller="ProjectsController">
+
+  <section class="container projects" ng-class="{first : $first, odd : $odd}" data-ng-repeat="project in projects | orderBy:'-updated'" data-slide="{{project.slide}}">
+    <div class="content-container">
+      <div class="content projects-content">
+        <div data-ng-include="'/framework/partials/projects/project.html'" />
+      </div>
+    </div>
+  </section>
 
 </div>

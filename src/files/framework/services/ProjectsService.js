@@ -21,6 +21,8 @@ app.service("ProjectsService", function () {
     {
       id: 18,
       title: "CallsUtil.js",
+      slide: "projectsCallsUtil",
+      blurb: "Gist for a JavaScript Ajax call utility",
       references: [
         { url: "https://gist.github.com/kyleaclark/8553379", name: "Gist" }
       ],
@@ -40,6 +42,7 @@ app.service("ProjectsService", function () {
     {
       id: 17,
       title: "kyleaclark.com",
+      slide: "projectsKyleAClark",
       references: [
         { url: "http://kyleaclark.com", name: "Website" },
         { url: "https://github.com/kyleaclark/kyleaclark", name: "GitHub" }
@@ -48,18 +51,17 @@ app.service("ProjectsService", function () {
       updated: new Date(2014, 1),
       descriptions: [
         { content: "Personal Project" },
-        { content: "Originally built in ASP.NET MVC framework; ported to run on top of NodeJS using AngularJS as a single page application."}
+        { content: "Originally built in ASP.NET MVC framework; ported to run as a single page application using AngularJS."}
       ],
       technologies: [
         { name: "JavaScript" },
-        { name: "NodeJS" },
+        { name: "AngularJS" },
         { name: "Docpad" },
         { name: "Grunt" },
         { name: "Bower" },
         { name: "RequireJS" },
         { name: "CoffeeScript" },
         { name: "Eco" },
-        { name: "AngularJS" },
         { name: "HTML5" },
         { name: "CSS3" },
         { name: "Sass" },
@@ -71,6 +73,7 @@ app.service("ProjectsService", function () {
     {
       id: 17,
       title: "Mic Mac Moe Js",
+      slide: "projectsMicMacMoeJs",
       references: [
         { url: "http://micmacmoejs.com", name: "Website" },
         { url: "http://micmacmoejs.com", name: "GitHub" }
@@ -105,11 +108,12 @@ app.service("ProjectsService", function () {
     {
       id: 16,
       title: "88 Depot",
+      slide: "projects88Depot",
       references: [
         { url: "http://88depot.com", name: "Website" }
       ],
       created: new Date(2013, 6),
-      updated: new Date(2014, 1),
+      updated: new Date(2014, 0),
       descriptions: [
         { content: "3rd Party Project" },
         { content: "Contributor to web design and front-end web development" }
@@ -128,7 +132,8 @@ app.service("ProjectsService", function () {
     /* CMS Live Editing Prototype */
     {
       id: 15,
-      title: "CMS Live Editing Prototype",
+      title: "CMS Live Editing",
+      slide: "projectsCmsPrototype",
       references: [
         { url: "https://github.com/kyleaclark/cms-live-prototype", name: "GitHub" }
       ],
@@ -136,7 +141,7 @@ app.service("ProjectsService", function () {
       updated: new Date(2014, 0),
       descriptions: [
         { content: "Personal Project" },
-        { content: "Prototype application to utilize HTML5 contenteditable in a live CMS editor" }
+        { content: "Prototype application to utilize HTML5 contenteditable in a live CMS editor." }
       ],
       technologies: [
         { name: "JavaScript" },
@@ -157,7 +162,8 @@ app.service("ProjectsService", function () {
     /* Express on Handlebars Template */
     {
       id: 14,
-      title: "Express on Handlebars Template",
+      title: "Express on Handlebars",
+      slide: "projectsExpressTemplate",
       references: [
         { url: "https://github.com/kyleaclark/express-on-handlebars-template", name: "GitHub" }
       ],
@@ -182,11 +188,12 @@ app.service("ProjectsService", function () {
     {
       id: 13,
       title: "Mic Mac Moe",
+      slide: "projectsMicMacMoe",
       references: [
         { url: "https://github.com/kyleaclark/mic-mac-moe", name: "GitHub" }
       ],
       created: new Date(2013, 5),
-      updated: new Date(2014, 6),
+      updated: new Date(2013, 6),
       descriptions: [
         { content: "Web application of a cross between connect four and tic-tic-toe." },
       ],
@@ -204,6 +211,7 @@ app.service("ProjectsService", function () {
     {
       id: 12,
       title: "Ruckus Design Studios",
+      slide: "projectsRuckusDesignStudios",
       references: [
         { url: "http://ruckusdesignstudios.com", name: "Website" }
       ],
@@ -223,6 +231,7 @@ app.service("ProjectsService", function () {
     {
       id: 11,
       title: "Puppy Carousel",
+      slide: "projectsPuppyCarousel",
       references: [
         { url: "https://github.com/kyleaclark/puppy-carousel", name: "GitHub" }
       ],
@@ -245,6 +254,7 @@ app.service("ProjectsService", function () {
     {
       id: 10,
       title: "Railroad Project",
+      slide: "projectsRailroad",
       references: [
         { url: "https://github.com/kyleaclark/railroad-project", name: "GitHub" }
       ],
@@ -262,6 +272,7 @@ app.service("ProjectsService", function () {
     {
       id: 9,
       title: "Banking Account",
+      slide: "projectsBankingAccount",
       references: [
         { url: "https://github.com/kyleaclark/banking-account", name: "GitHub" }
       ],
@@ -279,6 +290,7 @@ app.service("ProjectsService", function () {
     {
       id: 8,
       title: "Blackjack",
+      slide: "projectsBlackjack",
       references: [
         { url: "https://github.com/kyleaclark/blackjack", name: "GitHub" }
       ],
@@ -297,6 +309,7 @@ app.service("ProjectsService", function () {
     {
       id: 7,
       title: "Connect Four",
+      slide: "projectsConnectFour",
       references: [
         { url: "https://github.com/kyleaclark/connect-four", name: "GitHub" }
       ],
@@ -316,6 +329,7 @@ app.service("ProjectsService", function () {
     {
       id: 6,
       title: "Time Calculator 2",
+      slide: "projectsTimeCalculator2",
       references: [
         { url: "https://github.com/kyleaclark/time-calculator-2", name: "GitHub" }
       ],
@@ -335,6 +349,7 @@ app.service("ProjectsService", function () {
     {
       id: 5,
       title: "Time Calculator 1",
+      slide: "projectsTimeCalculator1",
       references: [
         { url: "https://github.com/kyleaclark/time-calculator-1", name: "GitHub" }
       ],
@@ -353,6 +368,7 @@ app.service("ProjectsService", function () {
     {
       id: 4,
       title: "Light",
+      slide: "projectsLight",
       references: [
         { url: "https://github.com/kyleaclark/light", name: "GitHub" }
       ],
@@ -372,6 +388,7 @@ app.service("ProjectsService", function () {
     {
       id: 3,
       title: "Spaced Out",
+      slide: "projectsSpacedOut",
       references: [
         { url: "https://github.com/kyleaclark/spaced-out", name: "GitHub" }
       ],
@@ -391,6 +408,7 @@ app.service("ProjectsService", function () {
     {
       id: 2,
       title: "Dynamic Toe",
+      slide: "projectsDynamicToe",
       references: [
         { url: "https://github.com/kyleaclark/dynamic-toe", name: "GitHub" }
       ],
@@ -408,7 +426,8 @@ app.service("ProjectsService", function () {
     /* 88 Depot */
     {
       id: 1,
-      title: "Escape to Safety<",
+      title: "Escape to Safety",
+      slide: "projectsEscapeToSafety",
       references: [
         { url: "https://github.com/kyleaclark/escape-to-safety", name: "GitHub" }
       ],

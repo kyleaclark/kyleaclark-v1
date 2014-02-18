@@ -34,8 +34,7 @@
   z-index: 1000;
 }
 
-.about, .skills, .contact {
-  background-color: $colorSkinSecondary;
+.about, .background, .experience, .skills, .education, .contact, .projects {
   border-bottom: 1px solid rgba($colorTextLight, 0.4);
 }
 
@@ -43,12 +42,14 @@
   background-color: $colorSkinPrimaryLightest;
 }
 
-.background, .experience, .education {
-  background-color: $colorSkinWhitespace;
-  border-bottom: 1px solid rgba($colorTextLight, 0.4);
+.background, .skills, .contact, .projects {
+  background-color: $colorSkinSecondary;
+  
 }
 
-.background {
-  background-color: $colorSkinSecondary;
+.experience, .education {
+  background-color: $colorSkinWhitespace;
 }
+
+
 
