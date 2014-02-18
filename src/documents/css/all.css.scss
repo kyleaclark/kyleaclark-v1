@@ -25,8 +25,13 @@
 @import "partials/footer.css";
 
 /* Home */
-@import "partials/about.css";
-@import "partials/background.css";
+@import "partials/home/about.css";
+@import "partials/home/background.css";
+@import "partials/home/skills.css";
+@import "partials/home/contact.css";
+
+/* Projects */
+@import "partials/projects/projects.css";
 
 
 

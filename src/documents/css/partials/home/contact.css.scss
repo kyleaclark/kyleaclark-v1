@@ -1,0 +1,56 @@
+@import "../../_global.scss";
+
+.contact-block {
+	float: left;
+	margin-top: 10px;
+	margin-right: 5%;
+	width: 45%;
+
+  div {
+    background-color: $colorBlockLight;
+    border: 3px solid rgba($blue, 1);
+    margin-bottom: 16px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  p {
+    color: $colorLink;
+    font-size: $fontSizeMedium;
+  }
+
+  a {
+    color: $colorLinkWhite;
+    font-weight: 700;
+
+    &:hover {
+      color: $colorLinkWhiteHover;
+    }
+  }
+}
+
+.follow-me-github {
+  img {
+    margin: 6px 0px 0px 5px;
+  }
+  a {
+    line-height: 38px;
+    margin-left: 5px;
+    vertical-align: top;
+  }
+}
+
+.follow-me-twitter {
+  img {
+    margin: 6px 0px 0px 5px;
+  }
+  a {
+    line-height: 38px;
+    margin-left: 5px;
+    vertical-align: top;
+  }
+}
+
+.contact-info-list {
+  margin-bottom: 16px;
+}

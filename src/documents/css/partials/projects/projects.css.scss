@@ -1,0 +1,77 @@
+@import "../../_global.scss";
+
+.first {
+  margin-top: 50px;
+}
+
+.odd {
+  background-color: $colorSkinWhitespace;
+}
+
+.project-block-blurb {
+  background-color: $colorBlockLight;
+  border: 3px solid rgba($blue, 1);
+  width: 94%;
+
+  div {
+    padding: 3px;
+  }
+
+  h4 {
+    color: $colorLinkWhite;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.project-block-sidebar, .project-block-desc, .project-block-techs {
+  float: left;
+  margin-top: 10px;
+
+  div {
+    background-color: $colorBorder;
+    border: 3px solid rgba($colorBorderLight, 1);
+    color: $colorTextLight;
+    padding: 5px 5px 10px;
+  }
+
+  h4 {
+    margin: 3px 0 1px;
+  }
+
+  ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+}
+
+.project-block-desc {
+  margin-right: 10px;
+  width: 70%;
+
+  li {
+    font-size: $fontSizeSmall;
+  }
+}
+
+.project-block-sidebar {
+  width: 22%;
+
+  a {
+    color: $blueLightest;
+    font-weight: 700;
+
+    &:hover {
+      color: $colorLinkHoverLight;
+    }
+  }
+}
+
+.project-block-techs {
+  width: 94%;
+
+  p {
+    font-size: $fontSizeSmall;
+    margin: 0;
+  }
+}
