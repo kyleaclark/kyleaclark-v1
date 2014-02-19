@@ -5,5 +5,4 @@ app.controller('ProjectsController', function ($scope, ProjectsService) {
   }
 
   init();
-
 });

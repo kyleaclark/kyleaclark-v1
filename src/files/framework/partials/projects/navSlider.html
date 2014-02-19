@@ -1,8 +1,4 @@
-<div class="nav-slider-block">
-  <a class="nav-slider-active" data-navSlide="homeTop" data-scroll-on-click>top</a>
-  <a data-navSlide="homeBackground" data-scroll-on-click>background</a>
-  <a data-navSlide="homeExperience" data-scroll-on-click>experience</a>
-  <a data-navSlide="homeSkills" data-scroll-on-click>skills</a>
-  <a data-navSlide="homeEducation" data-scroll-on-click>education</a>
-  <a data-navSlide="homeContact" data-scroll-on-click>contact</a>
+<div class="nav-slider-block" data-ng-controller="ProjectsController">
+	<a class="nav-slide-active" data-navSlide="projectsTop" data-scroll-on-click>top</a>
+  <a data-ng-repeat="project in projects | orderBy:'-updated'" data-navSlide="{{project.slide}}" data-scroll-on-click>{{project.title}}</a>
 </div>
