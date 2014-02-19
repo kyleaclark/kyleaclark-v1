@@ -5,7 +5,11 @@
 }
 
 .odd {
-  background-color: $colorSkinWhitespace;
+  background-color: $colorSkinWhite;
+}
+
+.highlight {
+  background-color: red;
 }
 
 .project-block-blurb {
@@ -74,4 +78,9 @@
     font-size: $fontSizeSmall;
     margin: 0;
   }
+}
+
+.reveal-animation.ng-enter {
+  -webkit-animation: enter_sequence 1s linear;
+  animation: enter_sequence 1s linear;
 }

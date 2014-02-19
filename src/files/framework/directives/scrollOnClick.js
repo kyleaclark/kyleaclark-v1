@@ -17,9 +17,9 @@ app.directive('scrollOnClick', function () {
         $navTargetEl,
         $currentNavActiveEl;
 
-      $currentNavActiveEl = $('.nav-slider-active');
+      $currentNavActiveEl = $('.nav-slide-active');
 
-      if (!$el.hasClass('nav-slider-active')) {
+      if (!$el.hasClass('nav-slide-active')) {
 
         if (elAttrVal) {
           targetEl = '[' + targetElAttr + '=' + elAttrVal + ']';
@@ -28,11 +28,13 @@ app.directive('scrollOnClick', function () {
           $targetEl = $el;
         }
       
+        /*
         navTargetEl = '[' + elAttr + '=' + elAttrVal + ']';
         $navTargetEl = $(navTargetEl);
 
-        $currentNavActiveEl.removeClass('nav-slider-active');
-        $navTargetEl.addClass('nav-slider-active');
+        $currentNavActiveEl.removeClass('nav-slide-active');
+        $navTargetEl.addClass('nav-slide-active');
+        */
 
         $("body").animate({scrollTop: ($targetEl.offset().top - targetElPadding)}, targetAnimateDuration);
       }
