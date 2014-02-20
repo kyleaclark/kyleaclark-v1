@@ -9,27 +9,59 @@
   
 	.column-one {
     float: left;
-    width: 50%;
+    width: 100%;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      width: 50%;
+    }
   }
 
   .column-two {
-    float: left;
-    text-align: right;
-    width: 50%;
+    display: none;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      display: block;
+      float: left;
+      text-align: center;
+      width: 50%;
+    }
+
+    /* Desktop Media Query */
+    @include apply-to(min-width, $bodySizeDesktop) {
+      text-align: right;
+    }
   }
 }
 
+
+
 .header-logo-name {
   color: $colorSnazzy;
-  font-size: $fontSizeLarge;
+  font-size: $fontSizeDefault;
   font-weight: 500;
+  position: relative;
+  top: -6px;
   text-decoration: none;
   text-transform: uppercase;
 
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeTablet) {
+    font-size: $fontSizeLarge;
+    top: 0px;
+  }
+
   span {
+    display: block;
     font-style: italic;
     font-weight: 300;
     text-transform: none;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      display: inline-block;
+    }
   }
 
   &:hover {

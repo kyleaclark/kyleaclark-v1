@@ -11,13 +11,12 @@ app.directive('scrollTopClick', function ($window) {
 
   function bindClickEvent() {
     $el.bind('click', function () {
-      console.log("$el click ", $el);
       onClickEvent();
     });
   }
 
   function onClickEvent() {
-    $("body").animate({scrollTop: 0}, 1000);
+    $("html, body").animate({scrollTop: 0}, 1000);
   }
 
   return topClick;

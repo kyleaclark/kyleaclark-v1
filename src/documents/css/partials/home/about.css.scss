@@ -17,12 +17,22 @@
 
 .about-block-desc {
   float: left;
-  width: 58%;
+  width: 100%;
+
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeMobileLandscape) {
+    width: 58%;
+  }
 }
 
 .about-block-pic {
   float: left;
-  width: 42%;
+  width: 100%;
+
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeMobileLandscape) {
+    width: 42%;
+  }
 }
 
 #my-pic {
@@ -30,3 +40,12 @@
   box-shadow: 6px 10px 10px rgba($colorBorder, 0.4);
   margin-bottom: 10px;
 } 
+
+#why-az {
+  display: none;
+
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeMobileLandscape) {
+    display: block;
+  }
+}

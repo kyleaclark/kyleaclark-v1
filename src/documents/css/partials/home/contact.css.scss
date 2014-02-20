@@ -3,8 +3,13 @@
 .contact-block {
 	float: left;
 	margin-top: 10px;
-	margin-right: 5%;
-	width: 45%;
+  width: 100%;
+
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeTablet) {
+    margin-right: 5%;
+    width: 45%;
+  }
 
   div {
     background-color: $colorBlockLight;
@@ -25,6 +30,15 @@
 
     &:hover {
       color: $colorLinkWhiteHover;
+    }
+  }
+
+  &:last-of-type {
+    margin-top: 0px;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      margin-top: 10px;
     }
   }
 }

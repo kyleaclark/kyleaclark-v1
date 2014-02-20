@@ -7,10 +7,6 @@ body {
      -moz-font-smoothing: antialiased;
           font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-
-  @include apply-to(min-width, $bodySizeDesktop) {
-    font-size: 146x;
-  }
 }
 
 h1, .h1   { font-size: $fontSizeHuge; }

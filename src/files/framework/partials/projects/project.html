@@ -30,7 +30,7 @@
   <div>
     <h4>Check It Out</h4>
     <ul>
-      <li data-ng-repeat="reference in project.references"><a href="{{reference.url}}" target="_blank" title="{{reference.name}}">{{reference.name}}</a></li>
+      <li data-ng-repeat="reference in project.references"><a data-ng-href="{{reference.url}}" target="_blank" title="{{reference.name}}">{{reference.name}}</a></li>
     </ul>
   </div>
 </section>
