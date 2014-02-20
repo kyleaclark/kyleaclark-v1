@@ -2,15 +2,15 @@
 
 @import "lib/normalize.css";
 
-/* --- [ Common ] --- */
+/* --- [ Base ] --- */
 
-@import "base/helpers.css";
 @import "base/typography.css";
-@import "base/elements.css";
+@import "base/helpers.css";
 @import "base/layout.css";
 
 /* --- [ Components ] --- */
 
+@import "components/navAccordion.css";
 @import "components/navSlider.css";
 @import "components/slideTitleContainer.css";
 
@@ -23,7 +23,9 @@
 /* Home */
 @import "partials/home/about.css";
 @import "partials/home/background.css";
+@import "partials/home/experience.css";
 @import "partials/home/skills.css";
+@import "partials/home/education.css";
 @import "partials/home/contact.css";
 
 /* Projects */

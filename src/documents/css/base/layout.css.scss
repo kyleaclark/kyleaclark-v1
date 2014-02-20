@@ -16,15 +16,26 @@
 
 .content-container {
   margin: 0 auto;
-  width: $bodySizeDesktop;
+  width: 98%;
+
+  /* Tablet Media Query */
+  /*@include apply-to(min-width, $bodySizeTablet) {
+    width: $bodySizeTablet;
+    margin-left: 4px;
+    margin-right: 4px;
+  }*/
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: $bodySizeDesktop;
+  }
 }
 
 .content {
-  float: left;
-  padding: 40px 5px 20px;
-  width: 100%;
+  padding: 40px 5px 20px 5px;
 
-  @include apply-to(min-width, $bodySizeTablet) {
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
     width: 80%;
   }
 }

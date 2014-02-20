@@ -15,7 +15,12 @@
 .project-block-blurb {
   background-color: $colorBlockLight;
   border: 3px solid rgba($blue, 1);
-  width: 94%;
+  width: 100%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: 98%;
+  }
 
   div {
     padding: 3px;
@@ -50,8 +55,13 @@
 }
 
 .project-block-desc {
-  margin-right: 10px;
-  width: 70%;
+  width: 100%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    margin-right: 2%;
+    width: 70%;
+  }
 
   li {
     font-size: $fontSizeSmall;
@@ -59,7 +69,12 @@
 }
 
 .project-block-sidebar {
-  width: 22%;
+  width: 100%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: 26%;
+  }
 
   a {
     color: $blueLightest;
@@ -72,15 +87,16 @@
 }
 
 .project-block-techs {
-  width: 94%;
+  margin-bottom: 25px;
+  width: 100%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: 98%;
+  }
 
   p {
     font-size: $fontSizeSmall;
     margin: 0;
   }
-}
-
-.reveal-animation.ng-enter {
-  -webkit-animation: enter_sequence 1s linear;
-  animation: enter_sequence 1s linear;
 }

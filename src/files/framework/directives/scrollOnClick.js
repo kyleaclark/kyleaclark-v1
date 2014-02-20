@@ -36,7 +36,7 @@ app.directive('scrollOnClick', function () {
         $navTargetEl.addClass('nav-slide-active');
         */
 
-        $("body").animate({scrollTop: ($targetEl.offset().top - targetElPadding)}, targetAnimateDuration);
+        $("html, body").animate({scrollTop: ($targetEl.offset().top - targetElPadding)}, targetAnimateDuration);
       }
     });
   }

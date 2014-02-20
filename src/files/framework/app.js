@@ -14,7 +14,6 @@ app.config(function ($routeProvider, $locationProvider) {
     })
     .otherwise({ redirectTo: "/" });
 
-  if (window.history && window.history.pushState) {
-    $locationProvider.html5Mode(true);
-  }
+  // Set HTML5 Routing
+  $locationProvider.html5Mode(true);
 });

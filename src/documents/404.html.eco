@@ -1,0 +1,9 @@
+---
+title: "kyleaclark.com"
+---
+
+<%- @partial "header.html", @ %>
+
+<div data-ng-view></div>
+
+<%- @partial "footer.html", @ %>

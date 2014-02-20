@@ -8,50 +8,14 @@
   </div>
 </nav>
 
-<section class="container about" data-slide="homeTop" data-when-filter-scroll>
-  <div class="content-container">
-    <div class="content about-content">
-      <div data-ng-include="'/framework/partials/home/about.html'" />
-    </div>
-  </div>
-</section>
+<div data-ng-controller="HomeController">
 
-<section class="container background" data-slide="homeBackground" data-when-filter-scroll>
-  <div class="content-container">
-    <div class="content background-content">
-      <div data-ng-include="'/framework/partials/home/background.html'" />
+  <section data-ng-repeat="slide in slides" class="container {{slide.containerClass}}" data-slide="{{slide.dataSlide}}" data-when-filter-scroll>
+    <div class="content-container">
+      <div class="content {{slide.contentClass}}">
+        <div data-ng-include="slide.partial" />
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="container experience" data-slide="homeExperience" data-when-filter-scroll>
-  <div class="content-container">
-    <div class="content experience-content">
-      <div data-ng-include="'/framework/partials/home/experience.html'" />
-    </div>
-  </div>
-</section>
-
-<section class="container skills" data-slide="homeSkills" data-when-filter-scroll>
-  <div class="content-container">
-    <div class="content skills-content">
-      <div data-ng-include="'/framework/partials/home/skills.html'" />
-    </div>
-  </div>
-</section>
-
-<section class="container education" data-slide="homeEducation" data-when-filter-scroll>
-  <div class="content-container">
-    <div class="content education-content">
-      <div data-ng-include="'/framework/partials/home/education.html'" />
-    </div>
-  </div>
-</section>
-
-<section class="container contact" data-slide="homeContact" data-when-filter-scroll>
-  <div class="content-container">
-    <div class="content contact-content">
-      <div data-ng-include="'/framework/partials/home/contact.html'" />
-    </div>
-  </div>
-</section>
+</div>
