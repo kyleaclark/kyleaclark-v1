@@ -10,7 +10,7 @@
 
 <div data-ng-controller="ProjectsController">
 
-  <section class="container projects" ng-class="{first : $first, odd : $odd}" data-ng-repeat="project in projects | orderBy:'-updated'" data-slide="{{project.slide}}" data-when-filter-scroll>
+  <section class="container projects" data-ng-class="{'projects-container-first' : $first, 'projects-container-odd' : $odd}" data-ng-repeat="project in projects | orderBy:'-updated'" data-slide="{{project.slide}}" data-user-scroll-event>
     <div class="content-container">
       <div class="content projects-content">
         <div data-ng-include="'/framework/partials/projects/project.html'" />

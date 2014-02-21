@@ -10,8 +10,15 @@
     padding: 3px;
   }
 
-  h4 {
+  a {
+    color: $colorLinkWhiteHover;
+  }
+
+  a:hover {
     color: $colorLinkWhite;
+  }
+
+  h4 {
     margin: 0;
     padding: 0;
   }

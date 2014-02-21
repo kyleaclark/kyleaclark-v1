@@ -23,10 +23,19 @@
     margin-bottom: 0;
     padding: 5px;
     width: 100%;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      margin-bottom: 20px;
+    }
   }
 
   &:last-of-type {
     margin-top: 0px;
+
+    p {
+      margin-bottom: 20px;
+    }
 
     /* Tablet Media Query */
     @include apply-to(min-width, $bodySizeTablet) {

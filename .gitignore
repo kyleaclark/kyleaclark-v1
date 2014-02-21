@@ -11,4 +11,5 @@
 out
 node_modules
 bower
+src/files/downloads
 .tmp_bower

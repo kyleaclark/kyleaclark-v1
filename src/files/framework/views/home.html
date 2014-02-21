@@ -10,7 +10,7 @@
 
 <div data-ng-controller="HomeController">
 
-  <section data-ng-repeat="slide in slides" class="container {{slide.containerClass}}" data-slide="{{slide.dataSlide}}" data-when-filter-scroll>
+  <section data-ng-repeat="slide in slides" class="container {{slide.containerClass}}" data-slide="{{slide.dataSlide}}" data-user-scroll-event>
     <div class="content-container">
       <div class="content {{slide.contentClass}}">
         <div data-ng-include="slide.partial" />
