@@ -1,0 +1,97 @@
+@import "../_global.scss";
+
+.header {
+  position: fixed;
+}
+
+.header-content {
+  padding: 15px 0 40px 0;
+  
+	.column-one {
+    float: left;
+    width: 100%;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      width: 50%;
+    }
+  }
+
+  .column-two {
+    display: none;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      display: block;
+      float: left;
+      text-align: center;
+      width: 50%;
+    }
+
+    /* Desktop Media Query */
+    @include apply-to(min-width, $bodySizeDesktop) {
+      text-align: right;
+    }
+  }
+}
+
+
+
+.header-logo-name {
+  color: $colorSnazzy;
+  font-size: $fontSizeDefault;
+  font-weight: 500;
+  position: relative;
+  top: -6px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeTablet) {
+    font-size: $fontSizeLarge;
+    top: 0px;
+  }
+
+  span {
+    display: block;
+    font-style: italic;
+    font-weight: 300;
+    text-transform: none;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      display: inline-block;
+    }
+  }
+
+  &:hover {
+    color: $colorSnazzy;
+  }
+}
+
+.header-nav {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    padding-left: 25px;
+  }
+
+  a {
+    color: $colorSkinWhite;
+    font-size: $fontSizeMedium;
+    font-weight: 500;
+    line-height: $fontSizeLarge;
+  }
+
+  a:hover {
+    color: $colorTextLight;
+  }
+}
+
+.header-nav-link {
+  color: red;
+}
