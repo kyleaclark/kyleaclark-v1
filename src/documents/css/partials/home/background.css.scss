@@ -1,0 +1,45 @@
+@import "../../_global.scss";
+
+.background-block {
+	float: left;
+	margin-top: 10px;
+  width: 100%;
+
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeTablet) {
+    margin-right: 4%;
+    width: 48%;
+
+    &:last-of-type {
+      margin-right: 0%;
+    }
+  }
+
+  p {
+    background-color: $colorBorder;
+    border: 3px solid rgba($colorBorderLight, 1);
+    color: $colorTextLight;
+    font-size: $fontSizeMedium;
+    margin-bottom: 0;
+    padding: 5px;
+    width: 100%;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &:last-of-type {
+    margin-top: 0px;
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      margin-top: 10px;
+    }
+  }
+}

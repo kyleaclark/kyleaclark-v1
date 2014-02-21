@@ -1,0 +1,46 @@
+@import "../_global.scss";
+
+.slide-title-container {
+  position: relative;
+}
+
+.slide-title-content {
+  background-color: $colorSnazzyDark;
+  border: 2px solid $colorBorder;
+  height: 47px;
+  width: 262px;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 10px;
+    z-index: 100;
+  }
+}
+
+.slide-title-arrow {
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-top: 18px solid $colorSnazzyDark;
+  height: 0;
+  left: 127px;
+  position: relative;
+  top: -22px;
+  width: 0; 
+  z-index: 10;
+}
+
+.slide-title-arrow-outline {
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid $colorBorder;
+  height: 0;
+  left: 125px;
+  position: relative;
+  top: -2px;
+  width: 0;
+  z-index: 5;
+}

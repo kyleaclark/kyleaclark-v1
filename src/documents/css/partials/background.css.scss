@@ -1,0 +1,21 @@
+@import "../_global.scss";
+
+.background-block {
+	float: left;
+	margin-top: 10px;
+	margin-right: 5%;
+	width: 45%;
+
+  div {
+    background-color: $colorBorder;
+    border: 3px solid rgba($colorBorderLight, 1);
+    margin-bottom: 16px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  p {
+    color: $colorTextLight;
+    font-size: $fontSizeMedium;
+  }
+}

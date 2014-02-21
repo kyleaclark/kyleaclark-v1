@@ -1,0 +1,46 @@
+@import "../../_global.scss";
+
+.experience-block-headline {
+  background-color: $colorBlockLight;
+  border: 3px solid rgba($blue, 1);
+  margin-top: 10px;
+  width: 100%;
+
+  div {
+    padding: 3px;
+  }
+
+  a {
+    color: $colorLinkWhiteHover;
+  }
+
+  a:hover {
+    color: $colorLinkWhite;
+  }
+
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.experience-block-desc {
+  margin-top: 10px;
+  width: 100%;
+
+  div {
+    background-color: $colorBorder;
+    border: 3px solid rgba($colorBorderLight, 1);
+    color: $colorTextLight;
+    padding: 5px 5px 10px;
+  }
+
+  h4 {
+    margin: 3px 0 1px;
+  }
+
+  ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,21 @@
+<!-- HOME VIEW -->
+
+<div class="clear"></div>
+
+<nav class="container nav-slider">
+  <div class="content-container nav-slider-content">
+    <div data-ng-include="'/framework/partials/home/navSlider.html'" />
+  </div>
+</nav>
+
+<div data-ng-controller="HomeController">
+
+  <section data-ng-repeat="slide in slides" class="container {{slide.containerClass}}" data-slide="{{slide.dataSlide}}" data-user-scroll-event>
+    <div class="content-container">
+      <div class="content {{slide.contentClass}}">
+        <div data-ng-include="slide.partial" />
+      </div>
+    </div>
+  </section>
+
+</div>
