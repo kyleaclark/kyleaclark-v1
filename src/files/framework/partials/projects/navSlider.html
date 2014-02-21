@@ -1,4 +1,3 @@
 <div class="nav-slider-block" data-ng-controller="ProjectsController">
-  <a class="nav-slide-active" data-navSlide="navTop" data-scroll-top-click>top</a>
-  <a data-ng-repeat="project in projects | orderBy:'-updated'" data-navSlide="{{project.slide}}" data-scroll-on-click>{{project.title}}</a>
+  <a data-ng-repeat="project in projects | orderBy:'-updated'" data-ng-class="{'nav-slide-active' : $first}" data-navSlide="{{project.slide}}" data-scroll-on-click="navScroll">{{project.title}}</a>
 </div>

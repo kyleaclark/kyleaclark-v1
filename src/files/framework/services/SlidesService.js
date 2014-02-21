@@ -22,7 +22,7 @@ app.service("SlidesService", function () {
       title: "background",
       dataSlide: "homeBackground",
       containerClass: "background",
-      contentClass: "about-background",
+      contentClass: "background-content",
       partial: "framework/partials/home/background.html"
     },
 
@@ -32,7 +32,7 @@ app.service("SlidesService", function () {
       title: "experience",
       dataSlide: "homeExperience",
       containerClass: "experience",
-      contentClass: "about-experience",
+      contentClass: "experience-content",
       partial: "framework/partials/home/experience.html"
     },
 
@@ -42,7 +42,7 @@ app.service("SlidesService", function () {
       title: "skills",
       dataSlide: "homeSkills",
       containerClass: "skills",
-      contentClass: "about-skills",
+      contentClass: "skills-content",
       partial: "framework/partials/home/skills.html"
     },
 
@@ -52,7 +52,7 @@ app.service("SlidesService", function () {
       title: "education",
       dataSlide: "homeEducation",
       containerClass: "education",
-      contentClass: "about-education",
+      contentClass: "education-content",
       partial: "framework/partials/home/education.html"
     },
 
@@ -62,7 +62,7 @@ app.service("SlidesService", function () {
       title: "contact",
       dataSlide: "homeContact",
       containerClass: "contact",
-      contentClass: "about-contact",
+      contentClass: "contact-content",
       partial: "framework/partials/home/contact.html"
     }
 

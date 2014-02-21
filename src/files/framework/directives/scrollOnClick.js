@@ -27,14 +27,6 @@ app.directive('scrollOnClick', function () {
         } else {
           $targetEl = $el;
         }
-      
-        /*
-        navTargetEl = '[' + elAttr + '=' + elAttrVal + ']';
-        $navTargetEl = $(navTargetEl);
-
-        $currentNavActiveEl.removeClass('nav-slide-active');
-        $navTargetEl.addClass('nav-slide-active');
-        */
 
         $("html, body").animate({scrollTop: ($targetEl.offset().top - targetElPadding)}, targetAnimateDuration);
       }

@@ -43,7 +43,7 @@ app.service("ProjectsService", function () {
       id: 17,
       title: "kyleaclark.com",
       slide: "projectsKyleAClark",
-      blurb: "Personal Project",
+      blurb: "Personal portfolio created in AngularJS",
       references: [
         { url: "http://kyleaclark.com", name: "Website" },
         { url: "https://github.com/kyleaclark/kyleaclark", name: "GitHub" }
@@ -51,7 +51,8 @@ app.service("ProjectsService", function () {
       created: new Date(2013, 7),
       updated: new Date(2014, 1),
       descriptions: [
-        { content: "Originally built in ASP.NET MVC framework; ported to run as a single page application using AngularJS."}
+        { content: "Single page application using AngularJS" },
+        { content: "Responsively designed for all device sizes" }
       ],
       technologies: [
         { name: "JavaScript" },
@@ -59,7 +60,6 @@ app.service("ProjectsService", function () {
         { name: "Docpad" },
         { name: "Grunt" },
         { name: "Bower" },
-        { name: "RequireJS" },
         { name: "CoffeeScript" },
         { name: "Eco" },
         { name: "HTML5" },
@@ -74,7 +74,7 @@ app.service("ProjectsService", function () {
       id: 17,
       title: "Mic Mac Moe Js",
       slide: "projectsMicMacMoeJs",
-      blurb: "Personal Project",
+      blurb: "Web application game created in JavaScript",
       references: [
         { url: "http://micmacmoejs.com", name: "Website" },
         { url: "http://micmacmoejs.com", name: "GitHub" }
@@ -82,8 +82,9 @@ app.service("ProjectsService", function () {
       created: new Date(2013, 7),
       updated: new Date(2014, 1),
       descriptions: [
-        { content: "Web application of a cross between tic-tic-toe and connect four." },
-        { content: "Completely refactored a new build and expanded functionality of the original mic-mac-moe. "}
+        { content: "Web application of a cross between tic-tic-toe and connect four" },
+        { content: "Refactored a new build and expanded functionality of the original version" },
+        { content: "Responsively designed for all device sizes" }
       ],
       technologies: [
         { name: "JavaScript" },
@@ -109,14 +110,15 @@ app.service("ProjectsService", function () {
       id: 16,
       title: "88 Depot",
       slide: "projects88Depot",
-      blurb: "3rd Party Project",
+      blurb: "Client website",
       references: [
         { url: "http://88depot.com", name: "Website" }
       ],
       created: new Date(2013, 6),
       updated: new Date(2014, 0),
       descriptions: [
-        { content: "Contributor to web design and front-end web development" }
+        { content: "Contributor to web design and front-end web development" },
+        { content: "Responsively designed to all device sizes" },
       ],
       technologies: [
         { name: "ASP.NET MVC" },
@@ -134,14 +136,14 @@ app.service("ProjectsService", function () {
       id: 15,
       title: "CMS Live Editing",
       slide: "projectsCmsPrototype",
-      blurb: "Personal Project",
+      blurb: "Prototype web application to live edit CMS content",
       references: [
         { url: "https://github.com/kyleaclark/cms-live-prototype", name: "GitHub" }
       ],
       created: new Date(2013, 11),
       updated: new Date(2014, 0),
       descriptions: [
-        { content: "Prototype application to utilize HTML5 contenteditable in a live CMS editor." }
+        { content: "Web application to utilize HTML5 contenteditable in a live CMS editor." }
       ],
       technologies: [
         { name: "JavaScript" },
@@ -171,7 +173,7 @@ app.service("ProjectsService", function () {
       created: new Date(2013, 10),
       updated: new Date(2013, 11),
       descriptions: [
-        { content: "The application is a project template set up for a Node ExpressJS app using the Handlebars templating engine. Structured to accommodate MVC." }
+        { content: "The application is a project template set up for a Node ExpressJS MVC app using Handlebars templating" }
       ],
       technologies: [
         { name: "JavaScript" },
@@ -189,7 +191,7 @@ app.service("ProjectsService", function () {
       id: 13,
       title: "Mic Mac Moe",
       slide: "projectsMicMacMoe",
-      blurb: "Personal application",
+      blurb: "Web application game created in JavaScript",
       references: [
         { url: "https://github.com/kyleaclark/mic-mac-moe", name: "GitHub" }
       ],
@@ -213,7 +215,7 @@ app.service("ProjectsService", function () {
       id: 12,
       title: "Ruckus Design Studios",
       slide: "projectsRuckusDesignStudios",
-      blurb: "3rd Party Project",
+      blurb: "Client website",
       references: [
         { url: "http://ruckusdesignstudios.com", name: "Website" }
       ],
@@ -224,7 +226,8 @@ app.service("ProjectsService", function () {
       ],
       technologies: [
         { name: "HTML5" },
-        { name: "CSS3" }
+        { name: "CSS3" },
+        { name: "Sass" }
       ]
     },
 
