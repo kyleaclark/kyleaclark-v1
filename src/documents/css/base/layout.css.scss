@@ -18,13 +18,6 @@
   margin: 0 auto;
   width: 98%;
 
-  /* Tablet Media Query */
-  /*@include apply-to(min-width, $bodySizeTablet) {
-    width: $bodySizeTablet;
-    margin-left: 4px;
-    margin-right: 4px;
-  }*/
-
   /* Desktop Media Query */
   @include apply-to(min-width, $bodySizeDesktop) {
     width: $bodySizeDesktop;
@@ -42,11 +35,15 @@
 
 .header, .footer {
   background-color: $colorSkinPrimary;
+}
+
+.header {
   z-index: 1000;
 }
 
 .about, .background, .experience, .skills, .education, .contact, .projects {
   border-bottom: 1px solid rgba($colorTextLight, 0.4);
+  z-index: 100;
 }
 
 .about {

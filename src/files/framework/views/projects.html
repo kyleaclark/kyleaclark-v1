@@ -2,12 +2,6 @@
 
 <div class="clear"></div>
 
-<nav class="container nav-slider">
-  <div class="content-container nav-slider-content">
-    <div data-ng-include="'/framework/partials/projects/navSlider.html'" />
-  </div>
-</nav>
-
 <div data-ng-controller="ProjectsController">
 
   <section class="container projects" data-ng-class="{'projects-container-first' : $first, 'projects-container-odd' : $odd}" data-ng-repeat="project in projects | orderBy:'-updated'" data-slide="{{project.slide}}" data-user-scroll-event>
@@ -17,5 +11,15 @@
       </div>
     </div>
   </section>
+
+  <div class="content-container">
+    <div class="nav-slider-container">
+      <nav class="nav-slider">
+          <div class="nav-slider-content">
+            <div data-ng-include="'/framework/partials/projects/navSlider.html'" />
+          </div>
+      </nav>
+    </div>
+  </div>
 
 </div>

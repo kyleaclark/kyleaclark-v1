@@ -2,12 +2,6 @@
 
 <div class="clear"></div>
 
-<nav class="container nav-slider">
-  <div class="content-container nav-slider-content">
-    <div data-ng-include="'/framework/partials/home/navSlider.html'" />
-  </div>
-</nav>
-
 <div data-ng-controller="HomeController">
 
   <section data-ng-repeat="slide in slides" class="container {{slide.containerClass}}" data-slide="{{slide.dataSlide}}" data-user-scroll-event>
@@ -17,5 +11,15 @@
       </div>
     </div>
   </section>
+
+  <div class="content-container">
+    <div class="nav-slider-container">
+      <nav class="nav-slider">
+          <div class="nav-slider-content">
+            <div data-ng-include="'/framework/partials/home/navSlider.html'" />
+          </div>
+      </nav>
+    </div>
+  </div>
 
 </div>
