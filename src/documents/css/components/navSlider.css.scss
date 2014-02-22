@@ -1,21 +1,32 @@
 @import "../_global.scss";
 
+.nav-slider-container {
+  margin-left: 2px;
+  width: 80%;
+}
+
 .nav-slider {
   display: none;
 
   /* Desktop Media Query */
   @include apply-to(min-width, $bodySizeDesktop) {
     display: block;
+    margin-left: 57%;
     position: fixed;
+    width: 15%;
+    z-index: 10;
   }
 }
 
 .nav-slider-content {
+  float: right;
   padding-top: 75px;
+  width: 100%;
 }
 
 .nav-slider-block {
   float: right;
+  margin-right: 5px;
   opacity: 0.4;
 
   a {
