@@ -13,7 +13,7 @@ Single Page Application built on AngularJS.
 
 ##Setup
 
-Install Node dependencies [compation version >= 0.10.0 < 0.11.0] - refer to nodejs.org.
+Install Node dependencies [compatible version >= 0.10.0 < 0.11.0] - refer to nodejs.org.
 
 Install Grunt depdencies [npm install -g grunt-cli] - refer to http://gruntjs.com/getting-started.
 
@@ -23,28 +23,30 @@ Install Bower dependencies [npm install -g bower, Git via http://git-scm.com] - 
 
 Clone repo to local.
 
-Use correct nvm version e.g.:
+Use correct nvm version >= 0.10.0 < 0.11.0 e.g.:
 
 ```
 nvm use 0.10.17
 ```
 
-Run npm install to install project dependencies from package.json:
+Run "npm install" to install project dependencies from package.json:
 
 ```
 npm install
 ```
 
-Run "grunt build" to install project dependencies from bower.json.
+Run "grunt setup" to install project dependencies from bower.json.
 
 ```
-grunt build
+grunt setup
 ```
 
 ##Run
 
 Run "grunt serve" command from root to run application locally
 
-Run "grunt production" command from root to jshint, compile js and css into disbrution-ready, minified code, and run application locally
+Run "grunt dist" command from root to compile js, css, & html into disbrution-ready, minified code
+
+Run "grunt production" command from root to compile js, css, & html into disbrution-ready, minified code, and run application locally
 
 

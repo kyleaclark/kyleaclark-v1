@@ -1,4 +1,6 @@
-app.service("SlidesService", function () {
+
+
+angular.module("PortfolioApp").service("SlidesService", function () {
 
   this.getHomeSlides = function () {
     return this.homeSlides;
@@ -13,7 +15,7 @@ app.service("SlidesService", function () {
       dataSlide: "homeTop",
       containerClass: "about",
       contentClass: "about-content",
-      partial: "framework/partials/home/about.html"
+      partial: "js/app/partials/home/about.html"
     },
 
     /* home/background */
@@ -23,7 +25,7 @@ app.service("SlidesService", function () {
       dataSlide: "homeBackground",
       containerClass: "background",
       contentClass: "background-content",
-      partial: "framework/partials/home/background.html"
+      partial: "js/app/partials/home/background.html"
     },
 
     /* home/experience */
@@ -33,7 +35,7 @@ app.service("SlidesService", function () {
       dataSlide: "homeExperience",
       containerClass: "experience",
       contentClass: "experience-content",
-      partial: "framework/partials/home/experience.html"
+      partial: "js/app/partials/home/experience.html"
     },
 
     /* home/skills */
@@ -43,7 +45,7 @@ app.service("SlidesService", function () {
       dataSlide: "homeSkills",
       containerClass: "skills",
       contentClass: "skills-content",
-      partial: "framework/partials/home/skills.html"
+      partial: "js/app/partials/home/skills.html"
     },
 
     /* home/education */
@@ -53,7 +55,7 @@ app.service("SlidesService", function () {
       dataSlide: "homeEducation",
       containerClass: "education",
       contentClass: "education-content",
-      partial: "framework/partials/home/education.html"
+      partial: "js/app/partials/home/education.html"
     },
 
     /* home/contact */
@@ -63,7 +65,7 @@ app.service("SlidesService", function () {
       dataSlide: "homeContact",
       containerClass: "contact",
       contentClass: "contact-content",
-      partial: "framework/partials/home/contact.html"
+      partial: "js/app/partials/home/contact.html"
     }
 
   ];
