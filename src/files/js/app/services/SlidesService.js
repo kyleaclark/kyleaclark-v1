@@ -11,7 +11,7 @@ angular.module("PortfolioApp").service("SlidesService", function () {
     /* home/about */
     {
       id: 6,
-      title: "about",
+      title: "About",
       dataSlide: "homeAbout",
       containerClass: "about",
       contentClass: "about-content",
@@ -21,7 +21,7 @@ angular.module("PortfolioApp").service("SlidesService", function () {
     /* home/background */
     {
       id: 5,
-      title: "background",
+      title: "Background",
       dataSlide: "homeBackground",
       containerClass: "background",
       contentClass: "background-content",
@@ -31,7 +31,7 @@ angular.module("PortfolioApp").service("SlidesService", function () {
     /* home/experience */
     {
       id: 4,
-      title: "experience",
+      title: "Experience",
       dataSlide: "homeExperience",
       containerClass: "experience",
       contentClass: "experience-content",
@@ -41,7 +41,7 @@ angular.module("PortfolioApp").service("SlidesService", function () {
     /* home/skills */
     {
       id: 3,
-      title: "skills",
+      title: "Skills",
       dataSlide: "homeSkills",
       containerClass: "skills",
       contentClass: "skills-content",
@@ -51,7 +51,7 @@ angular.module("PortfolioApp").service("SlidesService", function () {
     /* home/education */
     {
       id: 2,
-      title: "education",
+      title: "Education",
       dataSlide: "homeEducation",
       containerClass: "education",
       contentClass: "education-content",
@@ -61,7 +61,7 @@ angular.module("PortfolioApp").service("SlidesService", function () {
     /* home/contact */
     {
       id: 1,
-      title: "contact",
+      title: "Contact",
       dataSlide: "homeContact",
       containerClass: "contact",
       contentClass: "contact-content",
