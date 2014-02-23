@@ -11,7 +11,7 @@ angular.module("PortfolioApp").service("GistsService", function () {
     /* JS Observer Pattern */
     {
       id: 1,
-      title: "js observer pattern",
+      title: "JS Observer Pattern",
       slide: "gistsJsObserverPattern",
       blurb: "Observer Pattern w/ PubSub & EventHub utilities",
       references: [
@@ -32,7 +32,7 @@ angular.module("PortfolioApp").service("GistsService", function () {
     /* Ajax Call Util */
     {
       id: 1,
-      title: "ajax call util",
+      title: "Ajax Call Util",
       slide: "projectsCallsUtil",
       blurb: "Ajax call utility",
       references: [
