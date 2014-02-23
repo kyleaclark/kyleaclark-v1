@@ -1,4 +1,6 @@
-app.controller('HomeController', function ($scope, $route, $routeParams, $location, SlidesService) {
+
+
+angular.module("PortfolioApp").controller('HomeController', function ($scope, $route, $routeParams, $location, SlidesService) {
 
   function init () {
     $scope.$route = $route;

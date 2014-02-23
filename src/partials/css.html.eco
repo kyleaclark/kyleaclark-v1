@@ -1,0 +1,7 @@
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+<% if @getEnvironment() is "production": %>
+  <link rel="stylesheet" href="/css/app.css" />
+<% else : %>
+  <link rel="stylesheet" href="/css/all.css" />
+<% end %>

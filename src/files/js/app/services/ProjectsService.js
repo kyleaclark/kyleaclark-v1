@@ -1,4 +1,6 @@
-app.service("ProjectsService", function () {
+
+
+angular.module("PortfolioApp").service("ProjectsService", function () {
 
   this.getProjects = function () {
     return this.projects;

@@ -21,12 +21,7 @@
 
     <!-- CSS
     ================================================== -->
-
-    <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-
-    <!-- Styles -->
-    <%- @getBlock('styles').toHTML() %>
+    <%- @partial "css.html.eco", @ %>
    
     <!--[if lt IE 9]>
       <script src="{{contextRoot}}/lib/html5shiv-3.6.2.js"></script>
@@ -38,7 +33,7 @@
 
      <!-- JS
     ================================================== -->
-    <%- @partial "framework.html", @ %>
+    <%- @partial "js.html.eco", @ %>
     <%- @partial "ga.html", @ %>
 
   </body>
