@@ -1,6 +1,6 @@
-var $ = angular.element;
-
-app.directive('scrollOnClick', function () {
+angular.module("PortfolioApp").directive('scrollOnClick', function () {
+  var $ = angular.element;
+  
   function link ($scope, $el, $location) {
     var
       elAttr = 'data-navSlide',
