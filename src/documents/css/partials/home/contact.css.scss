@@ -47,10 +47,19 @@
   img {
     margin: 6px 0px 0px 5px;
   }
-  a {
-    line-height: 38px;
+
+  p {
+    display: inline-block;
+    font-size: $fontSizeDefault;
+    line-height: 40px;
+    margin: 0;
     margin-left: 5px;
+    padding: 0;
     vertical-align: top;
+
+    span {
+      color: $colorTextLight;
+    }
   }
 }
 
