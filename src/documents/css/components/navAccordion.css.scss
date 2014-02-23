@@ -68,7 +68,7 @@
 }
 
 .nav-container label:after,
-.nav-container input:checked + label:after{
+.nav-container input:checked + label:after {
   content: '';
   position: absolute;
   width: 26px;
@@ -84,11 +84,11 @@
   -moz-transform:rotateX(180deg);
 }
 
-.nav-container input{
+.nav-container input {
   display: none;
 }
 
-.nav-container input:checked ~ article{
+.nav-container input:checked ~ article {
   -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
   -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
   -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
