@@ -17,6 +17,7 @@
   <!-- App Controllers -->
   <script src="js/app/controllers/HomeController.js"></script>
   <script src="js/app/controllers/ProjectsController.js"></script>
+  <script src="js/app/controllers/GistsController.js"></script>
 
   <!-- App Directives -->
   <script src="js/app/directives/scrollOnClick.js"></script>
@@ -25,5 +26,6 @@
   <!-- App Services -->
   <script src="js/app/services/SlidesService.js"></script>
   <script src="js/app/services/ProjectsService.js"></script>
+  <script src="js/app/services/GistsService.js"></script>
 
 <% end %>

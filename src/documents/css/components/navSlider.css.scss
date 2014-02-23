@@ -11,9 +11,9 @@
   /* Desktop Media Query */
   @include apply-to(min-width, $bodySizeDesktop) {
     display: block;
-    margin-left: 57%;
+    margin-left: 650px;
     position: fixed;
-    width: 15%;
+    width: $navSliderDesktopSize;
     z-index: 10;
   }
 }
@@ -28,6 +28,8 @@
   float: right;
   margin-right: 5px;
   opacity: 0.4;
+  min-width: 100px;
+  text-transform: lowercase;
 
   a {
     background-color: $colorSkinPrimaryLight;
