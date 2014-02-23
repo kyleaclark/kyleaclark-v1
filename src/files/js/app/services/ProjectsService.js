@@ -21,27 +21,6 @@ angular.module("PortfolioApp").service("ProjectsService", function () {
 
     /* kyleaclark.com */
     {
-      id: 18,
-      title: "CallsUtil.js",
-      slide: "projectsCallsUtil",
-      blurb: "Gist for a JavaScript Ajax call utility",
-      references: [
-        { url: "https://gist.github.com/kyleaclark/8553379", name: "Gist" }
-      ],
-      created: new Date(2014, 0),
-      updated: new Date(2014, 0),
-      descriptions: [
-        { content: "Utilize utility object methods for Ajax get/post calls and deferred when/then/fail. Keep your code clean and DRY." }
-      ],
-      technologies: [
-        { name: "JavaScript" },
-        { name: "RequireJS" },
-        { name: "jQuery" }
-      ]
-    },
-
-    /* kyleaclark.com */
-    {
       id: 17,
       title: "kyleaclark.com",
       slide: "projectsKyleAClark",
