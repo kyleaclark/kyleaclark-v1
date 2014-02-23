@@ -1,0 +1,25 @@
+<!-- GISTS VIEW -->
+
+<div class="clear"></div>
+
+<div data-ng-controller="GistsController">
+
+  <section class="container gists" data-ng-class="{'gists-container-first' : $first, 'gists-container-odd' : $odd}" data-ng-repeat="gist in gists | orderBy:'-updated'" data-slide="{{gist.slide}}" data-user-scroll-event>
+    <div class="content-container">
+      <div class="content gists-content">
+        <div data-ng-include="'/js/app/partials/gists/gist.html'" />
+      </div>
+    </div>
+  </section>
+
+  <div class="content-container">
+    <div class="nav-slider-container">
+      <nav class="nav-slider">
+          <div class="nav-slider-content">
+            <div data-ng-include="'/js/app/partials/gists/navSlider.html'" />
+          </div>
+      </nav>
+    </div>
+  </div>
+
+</div>

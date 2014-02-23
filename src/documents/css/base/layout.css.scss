@@ -41,7 +41,7 @@
   z-index: 1000;
 }
 
-.about, .background, .experience, .skills, .education, .contact, .projects {
+.about, .background, .experience, .skills, .education, .contact, .projects, .gists {
   border-bottom: 1px solid rgba($colorTextLight, 0.4);
   z-index: 100;
 }
@@ -50,7 +50,7 @@
   background-color: $colorSkinPrimaryLightest;
 }
 
-.background, .skills, .contact, .projects {
+.background, .skills, .contact, .projects, .gists {
   background-color: $colorSkinSecondary;
   
 }

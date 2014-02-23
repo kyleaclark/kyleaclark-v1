@@ -17,7 +17,8 @@ h5, .h5   { font-size: $fontSizeSmall; }
 h6, .h6   { font-size: $fontSizeTiny; }
 
 a {
-	color: $colorLink;
+  color: $colorLink;
+  outline: none;
   text-decoration: none;
 }
 

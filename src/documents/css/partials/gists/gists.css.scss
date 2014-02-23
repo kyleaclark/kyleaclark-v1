@@ -1,17 +1,17 @@
 @import "../../_global.scss";
 
-.projects-container-first {
+.gists-container-first {
   /* Tablet Media Query */
   @include apply-to(min-width, $bodySizeTablet) {
     margin-top: 50px;
   }
 }
 
-.projects-container-odd {
+.gists-container-odd {
   background-color: $colorSkinWhite;
 }
 
-.project-block-blurb {
+.gist-block-blurb {
   background-color: $colorBlockLight;
   border: 3px solid rgba($blue, 1);
   width: 100%;
@@ -32,7 +32,7 @@
   }
 }
 
-.project-block-sidebar, .project-block-desc, .project-block-techs {
+.gist-block-sidebar, .gist-block-desc, .gist-block-techs {
   float: left;
   margin-top: 10px;
 
@@ -53,7 +53,7 @@
   }
 }
 
-.project-block-desc {
+.gist-block-desc {
   width: 100%;
 
   /* Desktop Media Query */
@@ -63,7 +63,7 @@
   }
 }
 
-.project-block-sidebar {
+.gist-block-sidebar {
   width: 100%;
 
   /* Desktop Media Query */
@@ -81,7 +81,7 @@
   }
 }
 
-.project-block-techs {
+.gist-block-techs {
   margin-bottom: 25px;
   width: 100%;
 

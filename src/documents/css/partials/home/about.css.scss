@@ -1,12 +1,21 @@
 @import "../../_global.scss";
 
 .about-content {
-  margin-top: 40px;
+  margin-top: -20px;
+
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeTablet) {
+    margin-top: 40px;
+  }
   
 	h1 {
     color: $colorText;
-    font-size: $fontSizeDouble;
     margin: 0;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeMobileLarge) {
+      font-size: $fontSizeDouble;
+    }
   }
 
   h2 {
