@@ -1,4 +1,6 @@
-app.service("ScrollService", function () {
+
+
+angular.module("PortfolioApp").service("ScrollService", function () {
 
   this.getProjects = function () {
     return this.projects;
