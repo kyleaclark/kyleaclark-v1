@@ -11,8 +11,8 @@ angular.module("PortfolioApp").service("SlidesService", function () {
     /* home/about */
     {
       id: 6,
-      title: "top",
-      dataSlide: "homeTop",
+      title: "about",
+      dataSlide: "homeAbout",
       containerClass: "about",
       contentClass: "about-content",
       partial: "js/app/partials/home/about.html"

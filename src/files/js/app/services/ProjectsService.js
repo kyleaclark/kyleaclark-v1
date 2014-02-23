@@ -238,7 +238,7 @@ angular.module("PortfolioApp").service("ProjectsService", function () {
       id: 11,
       title: "Puppy Carousel",
       slide: "projectsPuppyCarousel",
-      blurb: "Personal Project",
+      blurb: "JavaScript plugin using jQuery",
       references: [
         { url: "https://github.com/kyleaclark/puppy-carousel", name: "GitHub" }
       ],
@@ -261,7 +261,7 @@ angular.module("PortfolioApp").service("ProjectsService", function () {
       id: 10,
       title: "Railroad Project",
       slide: "projectsRailroad",
-      blurb: "Object-Oriented Programming & Data Structures Class Project",
+      blurb: "Object-Oriented Programming & Data Structures class project",
       references: [
         { url: "https://github.com/kyleaclark/railroad-project", name: "GitHub" }
       ],

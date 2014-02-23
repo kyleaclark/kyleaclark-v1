@@ -1,7 +1,10 @@
 @import "../_global.scss";
 
 .header {
-  position: fixed;
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeTablet) {
+    position: fixed;
+  }
 }
 
 .header-content {

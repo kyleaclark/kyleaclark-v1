@@ -30,6 +30,10 @@
     }
   }
 
+  a:hover {
+    color: $colorLinkHoverLight;
+  }
+
   &:last-of-type {
     margin-top: 0px;
 
