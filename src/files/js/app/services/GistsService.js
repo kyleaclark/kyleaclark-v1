@@ -8,9 +8,29 @@ angular.module("PortfolioApp").service("GistsService", function () {
   
   this.gists = [
 
+    /* This Scope */
+    {
+      id: 3,
+      title: "This Scope",
+      slide: "gistsThisScope",
+      blurb: "Toying with the scope of this",
+      references: [
+        { url: "https://gist.github.com/kyleaclark/9181673", name: "Gist" }
+      ],
+      created: new Date(2014, 1),
+      updated: new Date(2014, 1),
+      descriptions: [
+        { content: "A JavaScript play on the this keyword" },
+        { content: "showcases scope, hoisting, and object instances" }
+      ],
+      technologies: [
+        { name: "JavaScript" }
+      ]
+    },
+
     /* JS Observer Pattern */
     {
-      id: 1,
+      id: 2,
       title: "JS Observer Pattern",
       slide: "gistsJsObserverPattern",
       blurb: "Observer Pattern w/ PubSub & EventHub utilities",
