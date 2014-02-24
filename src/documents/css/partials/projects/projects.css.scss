@@ -91,7 +91,11 @@
   }
 
   p {
+    display: inline-block;
     font-size: $fontSizeSmall;
     margin: 0;
+    padding: 0;
+    margin-right: .25em;
+    white-space: nowrap;
   }
 }
