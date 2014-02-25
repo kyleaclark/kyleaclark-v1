@@ -13,3 +13,4 @@ node_modules
 bower
 src/files/downloads
 .tmp_bower
+test/.tmp-coverage

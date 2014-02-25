@@ -1,11 +1,11 @@
 module.exports = function (grunt) {
 
   var jsFiles = [
-    'out/lib/**/jquery.js',
-    'out/lib/**/angular.js',
-    'out/lib/**/angular-route.js',
-    'out/js/app/app.js',
-    'out/js/**/*.js'
+    'src/files/lib/**/jquery.js',
+    'src/files/lib/**/angular.js',
+    'src/files/lib/**/angular-route.js',
+    'src/files/js/app/app.js',
+    'src/files/js/**/*.js'
   ];
 
   grunt.initConfig({
@@ -89,6 +89,17 @@ module.exports = function (grunt) {
       }
     },
 
+    karma: {
+      options: {
+        configFile: 'karma.conf.js',
+        files: jsFiles.concat(['src/files/lib/bower/angular-mocks/angular-mocks.js', 'test/unit/**/*.js'])
+      },
+      test: {
+        singleRun: true,
+        browsers: ['PhantomJS']
+      }
+    },
+
     exec: {
       serve: {
         cmd: './node_modules/.bin/docpad run'
@@ -119,7 +130,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
-  grunt.loadNpmTasks('grunt-node-version');
+  grunt.loadNpmTasks('grunt-karma');
 
   grunt.registerTask('minify', [
     'concat:dist',
@@ -136,5 +147,7 @@ module.exports = function (grunt) {
   grunt.registerTask('dist', ['build', 'minify']);
   grunt.registerTask('production', ['dist', 'exec:production']);
   grunt.registerTask('serve', ['node_version', 'exec:serve']);
+  grunt.registerTask('test', ['karma:test']);
+
   grunt.registerTask('run-server', ['exec:runServer']);
 };
