@@ -14,7 +14,6 @@
   </section>
 </header>
 
-
 <section class="project-block-desc">
   <div>
     <h3>The Deets</h3>
@@ -37,6 +36,6 @@
 <section class="project-block-techs">
   <div>
     <h3>Technologies Utilized</h3>
-    <p><span style="font-size: 1em" data-ng-repeat="tech in project.technologies">{{tech.name}}<span data-ng-show="!$last ">, </span></span></p>
+    <p data-ng-repeat="tech in project.technologies">{{tech.name}}<span data-ng-show="!$last ">,</span></p>
   </div>
 </section>
