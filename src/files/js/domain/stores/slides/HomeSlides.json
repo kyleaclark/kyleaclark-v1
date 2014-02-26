@@ -1,0 +1,57 @@
+[
+
+  {
+    "id": "6",
+    "title": "About",
+    "dataSlide": "homeAbout",
+    "containerClass": "about",
+    "contentClass": "about-content",
+    "partial": "js/app/partials/home/about.html"
+  },
+
+  {
+    "id": "5",
+    "title": "Background",
+    "dataSlide": "homeBackground",
+    "containerClass": "background",
+    "contentClass": "background-content",
+    "partial": "js/app/partials/home/background.html"
+  },
+
+  {
+    "id": "4",
+    "title": "Experience",
+    "dataSlide": "homeExperience",
+    "containerClass": "experience",
+    "contentClass": "experience-content",
+    "partial": "js/app/partials/home/experience.html"
+  },
+
+  {
+    "id": "3",
+    "title": "Skills",
+    "dataSlide": "homeSkills",
+    "containerClass": "skills",
+    "contentClass": "skills-content",
+    "partial": "js/app/partials/home/skills.html"
+  },
+
+  {
+    "id": "2",
+    "title": "Education",
+    "dataSlide": "homeEducation",
+    "containerClass": "education",
+    "contentClass": "education-content",
+    "partial": "js/app/partials/home/education.html"
+  },
+
+  {
+    "id": "1",
+    "title": "Contact",
+    "dataSlide": "homeContact",
+    "containerClass": "contact",
+    "contentClass": "contact-content",
+    "partial": "js/app/partials/home/contact.html"
+  }
+
+]

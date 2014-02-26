@@ -1,9 +1,11 @@
 /*** GISTS CONTROLLER ***/
 
-angular.module("PortfolioApp").controller("GistsController", function ($scope, GistsService) {
+angular.module("PortfolioApp").controller("GistsController", function ($scope, QueryService) {
 
   function init() {
-    $scope.gists = GistsService.getGists();
+  	this.slidesResourceUrlPath = "js/domain/stores/slides/GistsSlides.json";
+
+    $scope.gists = QueryService.resource(this.slidesResourceUrlPath).query();
     $scope.navScroll = "gists";
   }
 
