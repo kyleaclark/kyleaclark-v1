@@ -1,4 +1,4 @@
-angular.module("PortfolioApp", ["ngRoute"]);
+angular.module("PortfolioApp", ["ngRoute", "ngResource"]);
 
 //This configures the routes and associates each route with a view and a controller
 angular.module("PortfolioApp").config(function ($routeProvider, $locationProvider) {

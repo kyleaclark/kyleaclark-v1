@@ -1,12 +1,14 @@
 
 
-angular.module("PortfolioApp").controller('HomeController', function ($scope, $route, $routeParams, $location, SlidesService) {
+angular.module("PortfolioApp").controller('HomeController', function ($scope, $route, $routeParams, $location, QueryService) {
 
   function init () {
+  	this.slidesResourceUrlPath = "js/domain/stores/slides/HomeSlides.json";
+
     $scope.$route = $route;
     $scope.$location = $location;
     $scope.$routeParams = $routeParams;
-    $scope.slides = SlidesService.getHomeSlides();
+    $scope.slides = QueryService.resource(this.slidesResourceUrlPath).query();
     $scope.navScroll = "home";
   }
   

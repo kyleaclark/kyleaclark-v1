@@ -1,9 +1,11 @@
 /*** PROJECTS CONTROLLER ***/
 
-angular.module("PortfolioApp").controller("ProjectsController", function ($scope, ProjectsService) {
+angular.module("PortfolioApp").controller("ProjectsController", function ($scope, QueryService) {
 
   function init() {
-    $scope.projects = ProjectsService.getProjects();
+    this.slidesResourceUrlPath = "js/domain/stores/slides/ProjectsSlides.json";
+
+    $scope.projects = QueryService.resource(this.slidesResourceUrlPath).query();
     $scope.navScroll = "projects";
   }
 
