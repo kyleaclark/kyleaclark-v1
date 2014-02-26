@@ -4,6 +4,7 @@ module.exports = function (grunt) {
     'src/files/lib/**/jquery.js',
     'src/files/lib/**/angular.js',
     'src/files/lib/**/angular-route.js',
+    'src/files/lib/**/angular-resource.js',
     'src/files/js/app/app.js',
     'src/files/js/**/*.js'
   ];
