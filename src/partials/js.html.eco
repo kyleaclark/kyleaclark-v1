@@ -28,4 +28,8 @@
   <script src="js/app/directives/userScrollEvent.js"></script>
   <script src="js/app/directives/navAccordionClick.js"></script>
 
+  <!-- NavSlider Component -->
+  <script src="js/app/components/nav-slider/nav-slider.js"></script>
+  <script src="js/app/components/nav-slider/nav-slider-directive.js"></script>
+
 <% end %>
