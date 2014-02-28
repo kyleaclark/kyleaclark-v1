@@ -1,6 +1,4 @@
-/*** GISTS CONTROLLER ***/
-
-angular.module("PortfolioApp").controller("GistsController", function ($scope, QueryService) {
+angular.module("Napp").controller("GistsController", function ($scope, QueryService) {
 
   function init() {
   	this.slidesResourceUrlPath = "js/domain/stores/slides/GistsSlides.json";
