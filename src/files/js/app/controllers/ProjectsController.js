@@ -1,6 +1,4 @@
-/*** PROJECTS CONTROLLER ***/
-
-angular.module("PortfolioApp").controller("ProjectsController", function ($scope, QueryService) {
+angular.module("Napp").controller("ProjectsController", function ($scope, QueryService) {
 
   function init() {
     this.slidesResourceUrlPath = "js/domain/stores/slides/ProjectsSlides.json";

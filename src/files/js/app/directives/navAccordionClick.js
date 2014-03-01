@@ -1,4 +1,4 @@
-angular.module("PortfolioApp").directive("navAccordionClick", function () {
+angular.module("Napp").directive("navAccordionClick", function () {
   var $ = angular.element;
   
   function link ($scope, $el, $location) {

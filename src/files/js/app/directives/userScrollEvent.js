@@ -1,4 +1,4 @@
-angular.module("PortfolioApp").directive("userScrollEvent", function ($window) {
+angular.module("Napp").directive("userScrollEvent", function ($window) {
 
   var 
     $ = angular.element,
