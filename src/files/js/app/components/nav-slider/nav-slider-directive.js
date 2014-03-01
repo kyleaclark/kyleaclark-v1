@@ -4,35 +4,49 @@ angular.module("Napp.navSlider.directive", [])
     return {
       restrict: "A",
       link: function (scope, element, attr) {
-        var
-          elAttr = 'data-navSlide',
-          targetElAttr = 'data-slide',
-          targetElPadding = 40,
-          targetAnimateDuration = 1000;
+        var $targetSlideEl;
           
-        element.bind("click", function () {
-          var 
-            elAttrVal = element.attr(elAttr),
-            targetEl,
-            navTargetEl,
-            $targetEl,
-            $navTargetEl,
-            $currentNavActiveEl;
+        // Bind click event to element
+        element.bind("click", onClickEvent);
 
-          $currentNavActiveEl = angular.element('.nav-slide-active');
+        // On click event handler
+        function onClickEvent() {
+          var navSlideClassVal = "nav-slide-active";
 
-          if (!element.hasClass('nav-slide-active')) {
-
-            if (elAttrVal) {
-              targetEl = '[' + targetElAttr + '=' + elAttrVal + ']';
-              $targetEl = angular.element(targetEl);
-            } else {
-              $targetEl = angular.element(el);
-            }
-
-            angular.element("html, body").animate({scrollTop: ($targetEl.offset().top - targetElPadding)}, targetAnimateDuration);
+          if (!element.hasClass(navSlideClassVal)) {
+            updateTargetSlideEl();
+            animateTargetSlideScroll();
           }
-        });
+        }
+
+        // Update target slide element
+        function updateTargetSlideEl() {
+          var
+            elAttr = "data-navSlide",
+            elAttrVal = element.attr(elAttr),
+            targetSlideElAttr = "data-slide",
+            targetSlideEl;
+
+          if (elAttrVal) {
+            targetSlideEl = "[" + targetSlideElAttr + "=" + elAttrVal + "]";
+            $targetSlideEl = angular.element(targetSlideEl);
+          }
+        }
+
+        // Animate scroll to target slide element
+        function animateTargetSlideScroll() {
+          var
+            targetSlideElPadding = 40,
+            targetAnimateDuration = 1000,
+            $htmlBody = angular.element("html, body"),
+            targetOffsetDifference = 0;
+
+          // If targetSlideEl exists, animate scroll from the targetSlideEl offset.top minus targetSlideElpadding
+          if ($targetSlideEl !== undefined && $targetSlideEl.length > 0) {
+            targetOffsetDifference = $targetSlideEl.offset().top - targetSlideElPadding;
+            $htmlBody.animate({scrollTop: targetOffsetDifference}, targetAnimateDuration);
+          }
+        }
       }
     }
   });
