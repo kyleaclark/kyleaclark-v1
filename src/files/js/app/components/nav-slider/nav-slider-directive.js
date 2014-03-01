@@ -7,7 +7,7 @@ angular.module("Napp.navSlider.directive", [])
         var $targetSlideEl;
           
         // Bind click event to element
-        element.bind("click", onClickEvent);
+        element.on("click", onClickEvent);
 
         // On click event handler
         function onClickEvent() {
