@@ -1,6 +1,4 @@
-
-
-angular.module("PortfolioApp").controller('HomeController', function ($scope, $route, $routeParams, $location, QueryService) {
+angular.module("Napp").controller('HomeController', function ($scope, $route, $routeParams, $location, QueryService) {
 
   function init () {
   	this.slidesResourceUrlPath = "js/domain/stores/slides/HomeSlides.json";
