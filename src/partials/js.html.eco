@@ -26,6 +26,9 @@
   <!-- App Directives -->
   <script src="js/app/directives/userScrollEvent.js"></script>
 
+  <!-- App Components -->
+  <script src="js/app/components/app-components.js"></script>
+
   <!-- NavSlider Component -->
   <script src="js/app/components/nav-slider/nav-slider.js"></script>
   <script src="js/app/components/nav-slider/nav-slider-directive.js"></script>
