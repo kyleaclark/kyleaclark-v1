@@ -1,7 +1,8 @@
 angular.module("Napp", [
     "ngRoute", 
     "ngResource",
-    "Napp.navSlider"
+    "Napp.navSlider",
+    "Napp.navAccordion"
   ])
 
   .config(function ($routeProvider, $locationProvider) {
