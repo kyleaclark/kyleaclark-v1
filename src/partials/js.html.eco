@@ -24,12 +24,14 @@
   <script src="js/app/services/QueryService.js"></script>
 
   <!-- App Directives -->
-  <script src="js/app/directives/scrollOnClick.js"></script>
   <script src="js/app/directives/userScrollEvent.js"></script>
-  <script src="js/app/directives/navAccordionClick.js"></script>
 
   <!-- NavSlider Component -->
   <script src="js/app/components/nav-slider/nav-slider.js"></script>
   <script src="js/app/components/nav-slider/nav-slider-directive.js"></script>
+
+  <!-- NavAccordion Component -->
+  <script src="js/app/components/nav-accordion/nav-accordion.js"></script>
+  <script src="js/app/components/nav-accordion/nav-accordion-directive.js"></script>
 
 <% end %>
