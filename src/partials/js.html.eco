@@ -23,11 +23,12 @@
   <!-- App Services -->
   <script src="js/app/services/QueryService.js"></script>
 
-  <!-- App Directives -->
-  <script src="js/app/directives/userScrollEvent.js"></script>
-
   <!-- App Components -->
   <script src="js/app/components/app-components.js"></script>
+
+  <!-- UserScroll Component -->
+  <script src="js/app/components/user-scroll/user-scroll.js"></script>
+  <script src="js/app/components/user-scroll/user-scroll-directive.js"></script>
 
   <!-- NavSlider Component -->
   <script src="js/app/components/nav-slider/nav-slider.js"></script>
