@@ -2,9 +2,9 @@
 
 <div class="clear"></div>
 
-<div data-ng-controller="GistsController">
+<div data-ng-controller="GistsController" user-scroll>
 
-  <section class="container gists" data-ng-class="{'gists-container-first' : $first, 'gists-container-odd' : $odd}" data-ng-repeat="gist in gists | orderBy:'-updated'" data-slide="{{gist.slide}}" data-user-scroll-event>
+  <section class="container gists" data-ng-class="{'gists-container-first' : $first, 'gists-container-odd' : $odd}" data-ng-repeat="gist in gists | orderBy:'-updated'" data-slide="{{gist.slide}}" user-scroll-update-nav>
     <div class="content-container">
       <div class="content gists-content">
         <div data-ng-include="'/js/app/partials/gists/gist.html'" />
