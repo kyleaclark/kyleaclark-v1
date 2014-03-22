@@ -8,8 +8,8 @@
     "references": [
       { "url": "https://gist.github.com/kyleaclark/9181673", "name": "Gist" }
     ],
-    "created": "new Date(2014, 1)",
-    "updated": "new Date(2014, 1)",
+    "created": "February 1, 2014",
+    "updated": "February 1, 2014",
     "descriptions": [
       { "content": "A JavaScript play on the this keyword" },
       { "content": "showcases scope, hoisting, and object instances" }
@@ -27,8 +27,8 @@
     "references": [
       { "url": "https://gist.github.com/kyleaclark/9175749", "name": "Gist" }
     ],
-    "created": "new Date(2014, 1)",
-    "updated": "new Date(2014, 1)",
+    "created": "February 1, 2014",
+    "updated": "February 1, 2014",
     "descriptions": [
       { "content": "Implements an example of how to use the Observer Pattern w/ PubSub & EventHub utilities in JavaScript." }
     ],
@@ -47,8 +47,8 @@
     "references": [
       { "url": "https://gist.github.com/kyleaclark/8553379", "name": "Gist" }
     ],
-    "created": "new Date(2014, 0)",
-    "updated": "new Date(2014, 0)",
+    "created": "January 1, 2014",
+    "updated": "January 1, 2014",
     "descriptions": [
       { "content": "Utilize utility object methods for Ajax get/post calls and deferred when/then/fail. Keep your code clean and DRY." }
     ],

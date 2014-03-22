@@ -3,8 +3,8 @@ angular.module("Napp.navAccordion.directive", [])
   .directive("navAccordion", function () {
     return {
       restrict: "A",
-      link: function (scope, element, attr) {
-        var 
+      link: function (scope, element) {
+        var
           $navBtnEl = angular.element("#nav-btn"),
           timer = 0,
           timerDelay = 1000;
@@ -19,5 +19,5 @@ angular.module("Napp.navAccordion.directive", [])
           }, timerDelay);
         }
       }
-    }
+    };
   });

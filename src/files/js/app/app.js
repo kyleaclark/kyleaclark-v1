@@ -1,5 +1,5 @@
 angular.module("Napp", [
-    "ngRoute", 
+    "ngRoute",
     "ngResource",
     "Napp.components"
   ])

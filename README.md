@@ -5,11 +5,37 @@ kyleaclark.com
 
 February 2014
 
-(last edit: February 2014)
+(last edit: March 2014)
 
 ##Overview
 
 Single Page Application built on AngularJS.
+
+##Technologies
+
+JavaScript
+
+NodeJS
+
+AngularJS
+
+Docpad
+
+Grunt
+
+Bower
+
+CoffeeScript
+
+Eco
+
+jQuery
+
+HTML5
+
+CSS3
+
+Sass
 
 ##Setup
 
