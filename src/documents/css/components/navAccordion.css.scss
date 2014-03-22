@@ -46,14 +46,14 @@
     }
 
     a {
-      color: $colorLinkWhite;
+      color: $colorSkinWhite;
       font-size: $fontSizeMedium;
       font-weight: 500;
       line-height: $fontSizeLarge;
     }
 
     a:hover {
-      color: $colorLinkWhiteHover;
+      color: $colorTextLight;
     }
   }
 

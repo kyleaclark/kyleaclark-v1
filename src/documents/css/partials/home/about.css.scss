@@ -19,7 +19,7 @@
   }
 
   h2 {
-    color: $colorTextLight;
+    color: $colorTextSubTitle;
     margin-top: 0;
   }
 }
@@ -56,5 +56,7 @@
   /* Tablet Media Query */
   @include apply-to(min-width, $bodySizeMobileLandscape) {
     display: block;
+    height: 150px;
+    width: 150px;
   }
 }
