@@ -18,7 +18,7 @@
   <div>
     <h3>The Deets</h3>
     <ul>
-      <li><span>Created: {{gist.created | date:'MM/yyyy'}}</span> &ndash; <span>Updated: {{gist.updated | date:'shortDate'}}</span></li>
+      <li><span>Created: {{toJsDate(gist.created) | date:'MM/yyyy'}}</span> &ndash; <span>Updated: {{toJsDate(gist.updated) | date:'MM/yyyy'}}</span></li>
       <li data-ng-repeat="description in gist.descriptions"><span>{{description.content}}</span></li>
     </ul>
   </div>

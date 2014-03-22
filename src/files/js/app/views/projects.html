@@ -4,7 +4,7 @@
 
 <div data-ng-controller="ProjectsController" user-scroll>
 
-  <section class="container projects" data-ng-class="{'projects-container-first' : $first, 'projects-container-odd' : $odd}" data-ng-repeat="project in projects | orderBy:'-updated'" data-slide="{{project.slide}}" user-scroll-update-nav>
+  <section class="container projects" ng-class="{'projects-container-first' : $first, 'projects-container-odd' : $odd}" data-ng-repeat="project in projects" data-slide="{{project.slide}}" user-scroll-update-nav>
     <div class="content-container">
       <div class="content projects-content">
         <div data-ng-include="'/js/app/partials/projects/project.html'" />

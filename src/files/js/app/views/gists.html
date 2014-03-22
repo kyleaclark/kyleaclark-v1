@@ -4,7 +4,7 @@
 
 <div data-ng-controller="GistsController" user-scroll>
 
-  <section class="container gists" data-ng-class="{'gists-container-first' : $first, 'gists-container-odd' : $odd}" data-ng-repeat="gist in gists | orderBy:'-updated'" data-slide="{{gist.slide}}" user-scroll-update-nav>
+  <section class="container gists" data-ng-class="{'gists-container-first' : $first, 'gists-container-odd' : $odd}" data-ng-repeat="gist in gists" data-slide="{{gist.slide}}" user-scroll-update-nav>
     <div class="content-container">
       <div class="content gists-content">
         <div data-ng-include="'/js/app/partials/gists/gist.html'" />

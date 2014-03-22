@@ -3,7 +3,7 @@ angular.module("Napp.navSlider.directive", [])
   .directive("navSlider", function () {
     return {
       restrict: "A",
-      link: function (scope, element, attr) {
+      link: function (scope, element) {
         var $targetSlideEl;
           
         // Bind click event to element
@@ -48,5 +48,5 @@ angular.module("Napp.navSlider.directive", [])
           }
         }
       }
-    }
+    };
   });
