@@ -1,10 +1,10 @@
-angular.module("Napp").controller("ProjectsController", function ($scope, QueryService) {
+angular.module("Napp").controller("ProjectsController", function ($scope, QueryService, DateService) {
 
   function init() {
     this.slidesResourceUrlPath = "js/domain/stores/slides/ProjectsSlides.json";
 
     $scope.projects = QueryService.resource(this.slidesResourceUrlPath).query();
-    $scope.navScroll = "projects";
+    $scope.toJsDate = DateService.toJsDate;
   }
 
   init();

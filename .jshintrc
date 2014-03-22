@@ -1,5 +1,6 @@
 {
   "globals"     : {
+    "angular"   :true,
     "define"    :true,
     "require"   :true,
     "modules"   :true,

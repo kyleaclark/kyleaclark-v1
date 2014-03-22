@@ -1,6 +1,33 @@
 [
 
   {
+    "id": "19",
+    "title": "Fire Checkers",
+    "slide": "projectsFireCheckers",
+    "blurb": "Multiplayer Checkers game built on AngularJS + Firebase (in progress)",
+    "references": [
+      { "url": "https://github.com/kyleaclark/fire-checkers", "name": "GitHub" }
+    ],
+    "created": "March 1, 2014",
+    "updated": "March 1, 2014",
+    "descriptions": [
+      { "content": "Single page application using AngularJS + Firebase" },
+      { "content": "Full checkers game with multiplayer capability" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "NodeJS" },
+      { "name": "AngularJS" },
+      { "name": "Yeoman" },
+      { "name": "Grunt" },
+      { "name": "Bower" },
+      { "name": "HTML5" },
+      { "name": "CSS3" },
+      { "name": "Sass" }
+    ]
+  },
+
+  {
     "id": "18",
     "title": "kyleaclark.com",
     "slide": "projectsKyleAClark",
@@ -9,14 +36,15 @@
       { "url": "http://kyleaclark.com", "name": "Website" },
       { "url": "https://github.com/kyleaclark/kyleaclark", "name": "GitHub" }
     ],
-    "created": "new Date(2013, 7)",
-    "updated": "new Date(2014, 1)",
+    "created": "February 1, 2014",
+    "updated": "March 1, 2014",
     "descriptions": [
       { "content": "Single page application using AngularJS" },
       { "content": "Responsively designed for all device sizes" }
     ],
     "technologies": [
       { "name": "JavaScript" },
+      { "name": "NodeJS" },
       { "name": "AngularJS" },
       { "name": "Docpad" },
       { "name": "Grunt" },
@@ -32,15 +60,15 @@
 
   {
     "id": "17",
-    "title": "Mic Mac Moe Js",
+    "title": "Mic Mac Moe JS",
     "slide": "projectsMicMacMoeJs",
     "blurb": "Web application game created in JavaScript",
     "references": [
       { "url": "http://micmacmoejs.com", "name": "Website" },
-      { "url": "http://micmacmoejs.com", "name": "GitHub" }
+      { "url": "https://github.com/kyleaclark/mic-mac-moe-2", "name": "GitHub" }
     ],
-    "created": "new Date(2013, 7)",
-    "updated": "new Date(2014, 1)",
+    "created": "August 1, 2013",
+    "updated": "February 1, 2014",
     "descriptions": [
       { "content": "Web application of a cross between tic-tic-toe and connect four" },
       { "content": "Refactored a new build and expanded functionality of the original version" },
@@ -66,31 +94,6 @@
   },
 
   {
-    "id": "16",
-    "title": "88 Depot",
-    "slide": "projects88Depot",
-    "blurb": "Client website",
-    "references": [
-      { "url": "http://88depot.com", "name": "Website" }
-    ],
-    "created": "new Date(2013, 6)",
-    "updated": "new Date(2014, 0)",
-    "descriptions": [
-      { "content": "Contributor to web design and front-end web development" },
-      { "content": "Responsively designed to all device sizes" }
-    ],
-    "technologies": [
-      { "name": "ASP.NET MVC" },
-      { "name": "JavaScript" },
-      { "name": "jQuery" },
-      { "name": "HTML5" },
-      { "name": "CSS3" },
-      { "name": "Sass" },
-      { "name": "Responsive Design" }
-    ]
-  },
-
-  {
     "id": "15",
     "title": "CMS Live Editing",
     "slide": "projectsCmsPrototype",
@@ -98,8 +101,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/cms-live-prototype", "name": "GitHub" }
     ],
-    "created": "new Date(2013, 11)",
-    "updated": "new Date(2014, 0)",
+    "created": "December 1, 2013",
+    "updated": "January 1, 2014",
     "descriptions": [
       { "content": "Web application to utilize HTML5 contenteditable in a live CMS editor" }
     ],
@@ -123,12 +126,12 @@
     "id": "14",
     "title": "Express on Handlebars",
     "slide": "projectsExpressTemplate",
-    "blurb": "Personal Project",
+    "blurb": "Boilerplate template to utilize an Express application with Handlebars",
     "references": [
       { "url": "https://github.com/kyleaclark/express-on-handlebars-template", "name": "GitHub" }
     ],
-    "created": "new Date(2013, 10)",
-    "updated": "new Date(2013, 11)",
+    "created": "November 1, 2013",
+    "updated": "December 1, 2013",
     "descriptions": [
       { "content": "The application is a project template set up for a Node ExpressJS MVC app using Handlebars templating" }
     ],
@@ -144,6 +147,31 @@
   },
 
   {
+    "id": "16",
+    "title": "88 Depot",
+    "slide": "projects88Depot",
+    "blurb": "Client website",
+    "references": [
+      { "url": "http://88depot.com", "name": "Website" }
+    ],
+    "created": "July 1, 2013",
+    "updated": "January 1, 2014",
+    "descriptions": [
+      { "content": "Contributor to web design and front-end web development" },
+      { "content": "Responsively designed to all device sizes" }
+    ],
+    "technologies": [
+      { "name": "ASP.NET MVC" },
+      { "name": "JavaScript" },
+      { "name": "jQuery" },
+      { "name": "HTML5" },
+      { "name": "CSS3" },
+      { "name": "Sass" },
+      { "name": "Responsive Design" }
+    ]
+  },
+
+  {
     "id": "13",
     "title": "Mic Mac Moe",
     "slide": "projectsMicMacMoe",
@@ -151,8 +179,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/mic-mac-moe", "name": "GitHub" }
     ],
-    "created": "new Date(2013, 5)",
-    "updated": "new Date(2013, 6)",
+    "created": "June 1, 2013",
+    "updated": "July 1, 2013",
     "descriptions": [
       { "content": "Web application of a cross between connect four and tic-tic-toe" }
     ],
@@ -174,8 +202,8 @@
     "references": [
       { "url": "http://ruckusdesignstudios.com", "name": "Website" }
     ],
-    "created": "new Date(2013, 1)",
-    "updated": "new Date(2013, 2)",
+    "created": "February 1, 2013",
+    "updated": "March 1, 2013",
     "descriptions": [
       { "content": "Conntracted to implement user interface from 3rd party design comps and assets" }
     ],
@@ -190,12 +218,12 @@
     "id": "11",
     "title": "Puppy Carousel",
     "slide": "projectsPuppyCarousel",
-    "blurb": "JavaScript plugin using jQuery",
+    "blurb": "JavaScript carousel plugin using jQuery",
     "references": [
       { "url": "https://github.com/kyleaclark/puppy-carousel", "name": "GitHub" }
     ],
-    "created": "new Date(2012, 11)",
-    "updated": "new Date(2012, 11)",
+    "created": "December 1, 2012",
+    "updated": "December 1, 2012",
     "descriptions": [
       { "content": "360 degree image carousel" }
     ],
@@ -216,8 +244,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/railroad-project", "name": "GitHub" }
     ],
-    "created": "new Date(2011, 3)",
-    "updated": "new Date(2011, 3)",
+    "created": "April 1, 2011",
+    "updated": "April 1, 2011",
     "descriptions": [
       { "content": "Constructs complex railroad freight management" }
     ],
@@ -234,8 +262,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/banking-account", "name": "GitHub" }
     ],
-    "created": "new Date(2011, 2)",
-    "updated": "new Date(2011, 2)",
+    "created": "March 1, 2011",
+    "updated": "March 1, 2011",
     "descriptions": [
       { "content": "Implements basic banking account management program" }
     ],
@@ -252,8 +280,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/blackjack", "name": "GitHub" }
     ],
-    "created": "new Date(2010, 1)",
-    "updated": "new Date(2010, 1)",
+    "created": "February 1, 2011",
+    "updated": "February 1, 2011",
     "descriptions": [
       { "content": "One person blackjack game with a dealer" }
     ],
@@ -270,8 +298,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/connect-four", "name": "GitHub" }
     ],
-    "created": "new Date(2005, 4)",
-    "updated": "new Date(2006, 3)",
+    "created": "May 1, 2005",
+    "updated": "April 1, 2006",
     "descriptions": [
       { "content": "Desktop GUI application to play a game of Connect Four" }
     ],
@@ -289,8 +317,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/time-calculator-2", "name": "GitHub" }
     ],
-    "created": "new Date(2005, 4)",
-    "updated": "new Date(2005, 4)",
+    "created": "May 1, 2005",
+    "updated": "May 1, 2005",
     "descriptions": [
       { "content": "Desktop GUI application to calculate time" }
     ],
@@ -308,8 +336,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/time-calculator-1", "name": "GitHub" }
     ],
-    "created": "new Date(2004, 7)",
-    "updated": "new Date(2004, 1)",
+    "created": "August 1, 2004",
+    "updated": "February 1, 2005",
     "descriptions": [
       { "content": "Desktop console application to calculate time" }
     ],
@@ -326,8 +354,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/light", "name": "GitHub" }
     ],
-    "created": "new Date(2003, 7)",
-    "updated": "new Date(2003, 1)",
+    "created": "August 1, 2003",
+    "updated": "February 1, 2003",
     "descriptions": [
       { "content": "Play a multi-level, time-based maze puzzle game" }
     ],
@@ -345,8 +373,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/spaced-out", "name": "GitHub" }
     ],
-    "created": "new Date(2002, 6)",
-    "updated": "new Date(2003, 7)",
+    "created": "July 1, 2002",
+    "updated": "August 1, 2003",
     "descriptions": [
       { "content": "Play a space shooter game with real AI" },
       { "content": "Uses a variety of trig functions to calculate collisions and move the enemy ships" }
@@ -365,8 +393,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/dynamic-toe", "name": "GitHub" }
     ],
-    "created": "new Date(2002, 3)",
-    "updated": "new Date(2002, 4)",
+    "created": "April 1, 2002",
+    "updated": "May 1, 2002",
     "descriptions": [
       { "content": "Desktop console application to play a game of tic-tac-toe with a dynamic game board size" }
     ],
@@ -383,8 +411,8 @@
     "references": [
       { "url": "https://github.com/kyleaclark/escape-to-safety", "name": "GitHub" }
     ],
-    "created": "new Date(2002, 2)",
-    "updated": "new Date(2002, 3)",
+    "created": "March 1, 2002",
+    "updated": "April 1, 2002",
     "descriptions": [
       { "content": "Play a time-based maze puzzle game" },
       { "content": "Other than a few simple Pascal programs, the first real program I developed in my Sophomore year of high school" }

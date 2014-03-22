@@ -64,7 +64,6 @@ angular.module("Napp.userScroll.directive", [])
 
         // Process logic for scroll calculations
         function processScrollCalculations() {
-          console.log(calculatedHeight, documentHeight);
           /* Update to last slide if scrolled to bottom of document,
              else update current position to determine active slide */
           if (calculatedHeight >= documentHeight) {

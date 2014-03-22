@@ -22,6 +22,7 @@
 
   <!-- App Services -->
   <script src="js/app/services/QueryService.js"></script>
+  <script src="js/app/services/DateService.js"></script>
 
   <!-- App Components -->
   <script src="js/app/components/app-components.js"></script>
