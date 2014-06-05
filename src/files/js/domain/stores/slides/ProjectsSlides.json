@@ -1,10 +1,40 @@
 [
 
   {
+    "id": "20",
+    "title": "Game of Life",
+    "slide": "projectsGameOfLife",
+    "blurb": "Conway's Game of Life built on AngularJS",
+    "references": [
+      { "url": "https://github.com/kyleaclark/game-of-life", "name": "GitHub" }
+    ],
+    "created": "April 1, 2014",
+    "updated": "April 1, 2014",
+    "descriptions": [
+      { "content": "Single page application using AngularJS" },
+      { "content": "Observe the evolutionary state of Conway's Game of Life" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "NodeJS" },
+      { "name": "AngularJS" },
+      { "name": "Yeoman" },
+      { "name": "Grunt" },
+      { "name": "Bower" },
+      { "name": "Karma" },
+      { "name": "Mocha" },
+      { "name": "Chai" },
+      { "name": "HTML5" },
+      { "name": "CSS3" },
+      { "name": "Sass" }
+    ]
+  },
+
+  {
     "id": "19",
     "title": "Fire Checkers",
     "slide": "projectsFireCheckers",
-    "blurb": "Multiplayer Checkers game built on AngularJS + Firebase (in progress)",
+    "blurb": "Multiplayer Checkers game built on AngularJS + Firebase",
     "references": [
       { "url": "https://github.com/kyleaclark/fire-checkers", "name": "GitHub" }
     ],
