@@ -1,0 +1,95 @@
+/*=============================
+  COLORS
+-------------------------------*/
+
+$white: #f9f9f9;
+$whiteDark: darken($white, 8%);
+$whiteLight: lighten($white, 8%);
+
+$blue: #22425a;
+$blueDark: darken($blue, 10%);
+$blueLight: lighten($blue, 4%);
+$blueLightest: lighten($blue, 30%);
+$blueMedLight: lighten($blue, 2%);
+
+$bluer: #141f35;
+
+$graySoft: #f1f1f1;
+$grayMed: #cbcbcf;
+$grayMedLight: #c1c1cc;
+$grayFirm: #2a2a2a;
+$grayFirmDarkest: darken($grayFirm, 75%);
+$grayFirmLight: lighten($grayFirm, 25%);
+
+$gold: #f4c233;
+$goldDark: darken($gold, 5%);
+
+/*=============================
+  THEME COLORS
+-------------------------------*/
+
+/* Base color sets for containers */
+
+$colorSkinPrimary: $bluer;
+$colorSkinPrimaryDark: $blueDark;
+$colorSkinPrimaryLight: $blueLight;
+$colorSkinPrimaryLightest: $blueLight;
+$colorSkinPrimaryMedLight: $blueMedLight;
+$colorSkinSecondary: $graySoft;
+$colorSkinWhite: $white;
+
+/* Base color sets for content */
+
+$colorText: $bluer;
+$colorTextLight: $grayMed;
+$colorTextSubTitle: $grayMedLight;
+$colorTextWhite: $whiteDark;
+
+$colorLink: $blueLightest;
+$colorLinkHover: $blueDark;
+$colorLinkHoverLight: $grayMedLight;
+$colorLinkWhite: $grayMedLight;
+$colorLinkWhiteHover: $whiteDark;
+
+$colorSnazzy: $gold;
+$colorSnazzyDark: $goldDark;
+
+$colorBorder: $grayFirm;
+$colorBorderDark: $grayFirmDarkest;
+$colorBorderLight: $grayFirmLight;
+
+$colorBlock: $grayFirm;
+$colorBlockLight: $blueMedLight;
+
+
+/*=============================
+  BODY SIZES
+-------------------------------*/
+
+$bodySizeDefault: 320px;
+$bodySizeMobileSmall: 360px;
+$bodySizeMobileLarge: 480px;
+$bodySizeMobileLandscape: 640px;
+$bodySizeTablet: 768px;
+$bodySizeDesktop: 800px;
+
+$navSliderDesktopSize: 150px;
+
+/*=============================
+  CONTENT SIZES
+-------------------------------*/
+
+$contentSizeDesktop: 700px;
+$navSizeDesktop: 160px;
+
+/*=============================
+  FONT SIZES
+-------------------------------*/
+
+$fontSizeDefault: 1.00em;
+$fontSizeTiny: 0.75em;
+$fontSizeSmall: 0.85em;
+$fontSizeMedium: 1.15em;
+$fontSizeLarge: 1.25em;
+$fontSizeHuge: 1.50em;
+$fontSizeDouble: 2.00em;

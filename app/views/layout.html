@@ -1,0 +1,42 @@
+<header class="container header">
+  <div class="content-container header-content">
+    <div class="column-one">
+      <a ui-sref="about" class="header-logo-name">Kyle A. Clark <span>- software engineer</span></a>
+    </div>
+    <div class="column-two">
+      <nav class="header-nav">
+        <ul>
+          <li><a ui-sref="about" title="Home">About</a></li>
+          <li><a ui-sref="portfolio" title="Portfolio">Portfolio</a></li>
+          <li><a ui-sref="blog" title="Blog">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="nav-container">
+  <div>
+    <input id="nav-btn" name="nav-accordion" type="checkbox" />
+    <label for="nav-btn">Nav</label>
+    <article>
+      <ul>
+        <li><a ui-sref="about" title="Home" nav-accordion>About</a></li>
+        <li><a ui-sref="portfolio" title="Projects" nav-accordion>Portfolio</a></li>
+        <li><a ui-sref="blog" title="Gists" nav-accordion>Blog</a></li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<div class="clear"></div>
+
+<div ui-view=""></div>
+
+<footer class="container footer">
+
+  <div class="content-container footer-content">
+    <p>Kyle A. Clark - software engineer</p>
+  </div>
+
+</footer>

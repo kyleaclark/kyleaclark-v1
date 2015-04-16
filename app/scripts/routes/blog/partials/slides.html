@@ -1,0 +1,41 @@
+<header class="slide-header">
+ <section class="slide-title-container">
+   <div class="slide-title-content">
+     <h2 class="slide-title">{{ ::slide.title }}</h2>
+   </div>
+   <div class="slide-title-arrow-outline"></div>
+   <div class="slide-title-arrow"></div>
+ </section>
+
+ <section class="slide-block-blurb">
+   <div>
+     <h3>{{ ::slide.blurb }}</h3>
+   </div>
+ </section>
+</header>
+
+<section class="slide-block-desc">
+ <div>
+   <h3>The Deets</h3>
+   <ul>
+     <li><span>Created: {{ ::slide.created | toJsDate | date:'MM/yyyy'}}</span> &ndash; <span>Updated: {{ ::slide.updated | toJsDate | date:'MM/yyyy'}}</span></li>
+     <li ng-repeat="description in slide.descriptions"><span>{{ ::description.content }}</span></li>
+   </ul>
+ </div>
+</section>
+
+<section class="slide-block-sidebar">
+ <div>
+   <h3>Check It Out</h3>
+   <ul>
+     <li ng-repeat="reference in slide.references"><a ng-href="{{reference.url}}" target="_blank" title="{{reference.name}}">{{ ::reference.name }}</a></li>
+   </ul>
+ </div>
+</section>
+
+<section class="slide-block-techs">
+ <div>
+   <h3>Technologies Utilized</h3>
+   <p ng-repeat="tech in slide.technologies">{{ ::tech.name }}<span ng-show="!$last">,</span></p>
+ </div>
+</section>

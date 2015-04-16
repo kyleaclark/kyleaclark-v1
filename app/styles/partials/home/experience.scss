@@ -1,0 +1,44 @@
+.experience-block-headline {
+  background-color: $colorBlockLight;
+  border: 3px solid rgba($blue, 1);
+  margin-top: 10px;
+  width: 100%;
+
+  div {
+    padding: 3px;
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: $colorLinkWhite;
+  }
+
+  a:hover {
+    color: $colorLinkWhiteHover;
+  }
+}
+
+.experience-block-desc {
+  margin-top: 10px;
+  width: 100%;
+
+  div {
+    background-color: $colorBorder;
+    border: 3px solid rgba($colorBorderLight, 1);
+    color: $colorTextLight;
+    padding: 5px 5px 10px;
+  }
+
+  h3 {
+    margin: 3px 0 1px;
+  }
+
+  ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+}

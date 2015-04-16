@@ -1,41 +1,9 @@
 kyleaclark.com
 ============
 
-##Authored Date
-
-February 2014
-
-(last edit: March 2014)
-
 ##Overview
 
 Single Page Application built on AngularJS.
-
-##Technologies
-
-JavaScript
-
-NodeJS
-
-AngularJS
-
-Docpad
-
-Grunt
-
-Bower
-
-CoffeeScript
-
-Eco
-
-jQuery
-
-HTML5
-
-CSS3
-
-Sass
 
 ##Setup
 
@@ -61,18 +29,14 @@ Run "npm install" to install project dependencies from package.json:
 npm install
 ```
 
-Run "grunt setup" to install project dependencies from bower.json.
+Run "bower install" to install bower dependencies from bower.json.
 
 ```
-grunt setup
+bower install
 ```
 
 ##Run
 
 Run "grunt serve" command from root to run application locally
 
-Run "grunt dist" command from root to compile js, css, & html into disbrution-ready, minified code
-
-Run "grunt production" command from root to compile js, css, & html into disbrution-ready, minified code, and run application locally
-
-
+Run "grunt serve:dist" command from root to compile js, css, & html into disbrution-ready, minified code

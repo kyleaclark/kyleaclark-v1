@@ -1,0 +1,99 @@
+.gists-container-first {
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeTablet) {
+    margin-top: 50px;
+  }
+}
+
+.gists-container-odd {
+  background-color: $colorSkinWhite;
+}
+
+.gist-block-blurb {
+  background-color: $colorBlockLight;
+  border: 3px solid rgba($blue, 1);
+  width: 100%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: 98%;
+  }
+
+  div {
+    padding: 3px;
+  }
+
+  h3 {
+    color: $colorTextWhite;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.gist-block-sidebar, .gist-block-desc, .gist-block-techs {
+  float: left;
+  margin-top: 10px;
+
+  div {
+    background-color: $colorBorder;
+    border: 3px solid rgba($colorBorderLight, 1);
+    color: $colorTextLight;
+    padding: 5px 5px 10px;
+  }
+
+  h3 {
+    margin: 3px 0 1px;
+  }
+
+  ul {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+}
+
+.gist-block-desc {
+  width: 100%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    margin-right: 2%;
+    width: 70%;
+  }
+}
+
+.gist-block-sidebar {
+  width: 100%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: 26%;
+  }
+
+  a {
+    color: $blueLightest;
+    font-weight: 700;
+
+    &:hover {
+      color: $colorLinkHoverLight;
+    }
+  }
+}
+
+.gist-block-techs {
+  margin-bottom: 25px;
+  width: 100%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: 98%;
+  }
+
+  p {
+    display: inline-block;
+    font-size: $fontSizeSmall;
+    margin: 0;
+    padding: 0;
+    margin-right: .25em;
+    white-space: nowrap;
+  }
+}

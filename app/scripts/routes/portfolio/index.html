@@ -1,0 +1,44 @@
+<div user-scroll ng-show="ngRepeatFinished">
+
+  <section
+    class="container portfolio"
+    ng-class="{'portfolio-container-first' : $first, 'portfolio-container-odd' : $odd}"
+    ng-repeat="slide in slides"
+    data-slide="{{ slide.slide }}"
+    user-scroll-update-nav
+    on-last-repeat
+  >
+
+    <div class="content-container">
+
+      <div class="content">
+
+        <div partial-include="/scripts/routes/portfolio/partials/slides.html" />
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <div class="content-container">
+
+    <div class="nav-slider-container">
+
+      <nav class="nav-slider">
+
+        <div class="nav-slider-content">
+
+          <div partial-include="/scripts/routes/portfolio/partials/side-nav.html" />
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </div>
+
+</div>

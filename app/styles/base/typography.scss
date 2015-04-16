@@ -1,0 +1,25 @@
+body {
+  color: $colorText;
+  font: 400 14px/1.4 "Valera Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+     -moz-font-smoothing: antialiased;
+          font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, .h1   { font-size: $fontSizeHuge; }
+h2, .h2   { font-size: $fontSizeLarge; }
+h3, .h3   { font-size: $fontSizeMedium; }
+h4, .h4   { font-size: $fontSizeDefault; }
+h5, .h5   { font-size: $fontSizeSmall; }
+h6, .h6   { font-size: $fontSizeTiny; }
+
+a {
+  color: $colorLink;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $colorLinkHover;
+}

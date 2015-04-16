@@ -8,9 +8,9 @@
 
 # Directories
 .idea
-out
+dist
 node_modules
+bower_components
 bower
-src/files/downloads
-.tmp_bower
+.tmp
 test/.tmp-coverage
