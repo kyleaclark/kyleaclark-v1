@@ -1,0 +1,48 @@
+.background-block {
+	float: left;
+  width: 100%;
+
+  /* Tablet Media Query */
+  @include apply-to(min-width, $bodySizeTablet) {
+    margin-right: 4%;
+    width: 48%;
+
+    &:last-of-type {
+      margin-right: 0%;
+    }
+  }
+
+
+  p {
+    background-color: $colorBorder;
+    border: 3px solid rgba($colorBorderLight, 1);
+    color: $colorTextLight;
+    font-size: $fontSizeMedium;
+    margin-bottom: 10px;
+		margin-top: 0;
+    padding: 5px;
+    width: 100%;
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      margin-bottom: 20px;
+    }
+  }
+
+  a:hover {
+    color: $colorLinkHoverLight;
+  }
+
+	&:first-of-type {
+		margin-top: 10px;
+	}
+
+  &:last-of-type {
+
+    /* Tablet Media Query */
+    @include apply-to(min-width, $bodySizeTablet) {
+      margin-top: 10px;
+    }
+
+  }
+}

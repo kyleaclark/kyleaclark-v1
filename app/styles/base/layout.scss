@@ -1,0 +1,59 @@
+/* Apply a natural box layout model to all elements */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  float: left;
+  width: 100%;
+}
+
+.content-container {
+  margin: 0 auto;
+  width: 98%;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: $bodySizeDesktop;
+  }
+}
+
+.content {
+  padding: 40px 5px 20px 5px;
+
+  /* Desktop Media Query */
+  @include apply-to(min-width, $bodySizeDesktop) {
+    width: 80%;
+  }
+}
+
+.header, .footer {
+  background-color: $colorSkinPrimary;
+}
+
+.header {
+  z-index: 1000;
+}
+
+.about, .background, .experience, .skills, .education, .contact, .projects, .gists, .slides {
+  border-bottom: 1px solid rgba($colorTextLight, 0.4);
+  z-index: 100;
+}
+
+.about {
+  background-color: $colorSkinPrimaryLightest;
+  border-bottom: 2px solid rgba($colorBorder, 0.4);
+}
+
+.background, .skills, .contact, .projects, .gists {
+  background-color: $colorSkinSecondary;
+
+}
+
+.experience, .education, .slides {
+  background-color: $colorSkinWhite;
+}

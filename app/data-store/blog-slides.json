@@ -1,0 +1,116 @@
+[
+
+  {
+    "id": "6",
+    "title": "Angular Loading",
+    "slide": "blogAngularLoadingExperience",
+    "blurb": "Improving the Angular Single-Page Application Loading Experience",
+    "references": [
+      { "url": "https://blog.srcclr.com/improving-the-angular-single-page-application-loading-experience/", "name": "Blog" }
+    ],
+    "created": "March 24, 2015",
+    "updated": "March 24, 2015",
+    "descriptions": [
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "Angular" }
+    ]
+  },
+
+  {
+    "id": "5",
+    "title": "Angular Data Syncing",
+    "slide": "blogAngularDataSyncing",
+    "blurb": "Smart Syncing Angular Services on $scope",
+    "references": [
+      { "url": "https://blog.srcclr.com/smart-syncing-angular-services-on-scope/", "name": "Blog" }
+    ],
+    "created": "March 5, 2015",
+    "updated": "March 5, 2015",
+    "descriptions": [
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "Angular" }
+    ]
+  },
+
+  {
+    "id": "4",
+    "title": "JavaScript Equality",
+    "slide": "blogJavaScriptEqualityQuirks",
+    "blurb": "The Quirks of JavaScript Equality - A Strategy for Sanity",
+    "references": [
+      { "url": "https://blog.srcclr.com/normalizing-in-JavaScript/", "name": "Blog" }
+    ],
+    "created": "February 19, 2015",
+    "updated": "February 19, 2015",
+    "descriptions": [
+    ],
+    "technologies": [
+      { "name": "JavaScript" }
+    ]
+  },
+
+  {
+    "id": "3",
+    "title": "This Scope",
+    "slide": "blogThisScope",
+    "blurb": "Toying with the scope of this",
+    "references": [
+      { "url": "https://gist.github.com/kyleaclark/9181673", "name": "Gist" }
+    ],
+    "created": "February 1, 2014",
+    "updated": "February 1, 2014",
+    "descriptions": [
+      { "content": "A JavaScript play on the this keyword" },
+      { "content": "showcases scope, hoisting, and object instances" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" }
+    ]
+  },
+
+  {
+    "id": "2",
+    "title": "JS Observer Pattern",
+    "slide": "blogJsObserverPattern",
+    "blurb": "Observer Pattern w/ PubSub & EventHub utilities",
+    "references": [
+      { "url": "https://gist.github.com/kyleaclark/9175749", "name": "Gist" }
+    ],
+    "created": "February 1, 2014",
+    "updated": "February 1, 2014",
+    "descriptions": [
+      { "content": "Implements an example of how to use the Observer Pattern w/ PubSub & EventHub utilities in JavaScript." }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "RequireJS" },
+      { "name": "jQuery" }
+    ]
+  },
+
+  {
+    "id": "1",
+    "title": "Ajax Call Util",
+    "slide": "blogCallsUtil",
+    "blurb": "Ajax call utility",
+    "references": [
+      { "url": "https://gist.github.com/kyleaclark/8553379", "name": "Gist" }
+    ],
+    "created": "January 1, 2014",
+    "updated": "January 1, 2014",
+    "descriptions": [
+      { "content": "Utilize utility object methods for Ajax get/post calls and deferred when/then/fail. Keep your code clean and DRY." }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "RequireJS" },
+      { "name": "jQuery" },
+      { "name": "Ajax"}
+    ]
+  }
+
+]

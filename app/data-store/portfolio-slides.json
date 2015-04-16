@@ -1,0 +1,384 @@
+[
+
+  {
+    "id": "19",
+    "title": "kyleaclark.com",
+    "slide": "portfolioKyleAClark",
+    "blurb": "Personal portfolio created in AngularJS",
+    "references": [
+      { "url": "http://kyleaclark.com", "name": "Website" },
+      { "url": "https://github.com/kyleaclark/kyleaclark", "name": "GitHub" }
+    ],
+    "created": "February 1, 2014",
+    "updated": "April 1, 2015",
+    "descriptions": [
+      { "content": "Single page application using AngularJS" },
+      { "content": "Responsively designed for all device sizes" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "AngularJS" },
+      { "name": "HTML5" },
+      { "name": "CSS3" },
+      { "name": "Sass" },
+      { "name": "Grunt" },
+      { "name": "Bower" },
+      { "name": "Responsive Design"}
+    ]
+  },
+
+  {
+    "id": "18",
+    "title": "Mic Mac Moe JS",
+    "slide": "portfolioMicMacMoeJs",
+    "blurb": "Web application game created in JavaScript",
+    "references": [
+      { "url": "http://micmacmoejs.com", "name": "Website" },
+      { "url": "https://github.com/kyleaclark/mic-mac-moe-2", "name": "GitHub" }
+    ],
+    "created": "August 1, 2013",
+    "updated": "February 1, 2014",
+    "descriptions": [
+      { "content": "Web application of a cross between tic-tic-toe and connect four" },
+      { "content": "Refactored a new build and expanded functionality of the original version" },
+      { "content": "Responsively designed for all device sizes" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "NodeJS" },
+      { "name": "Docpad" },
+      { "name": "Grunt" },
+      { "name": "Bower" },
+      { "name": "RequireJS" },
+      { "name": "CoffeeScript" },
+      { "name": "Eco" },
+      { "name": "jQuery" },
+      { "name": "UnderscoreJS" },
+      { "name": "JSON" },
+      { "name": "HTML5" },
+      { "name": "CSS3" },
+      { "name": "Sass" },
+      { "name": "Responsive Design"}
+    ]
+  },
+
+  {
+    "id": "17",
+    "title": "Game of Life",
+    "slide": "projectsGameOfLife",
+    "blurb": "Conway's Game of Life built on AngularJS",
+    "references": [
+      { "url": "https://github.com/kyleaclark/game-of-life", "name": "GitHub" }
+    ],
+    "created": "April 1, 2014",
+    "updated": "April 1, 2014",
+    "descriptions": [
+      { "content": "Single page application using AngularJS" },
+      { "content": "Observe the evolutionary state of Conway's Game of Life" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "NodeJS" },
+      { "name": "AngularJS" },
+      { "name": "Yeoman" },
+      { "name": "Grunt" },
+      { "name": "Bower" },
+      { "name": "Karma" },
+      { "name": "Mocha" },
+      { "name": "Chai" },
+      { "name": "HTML5" },
+      { "name": "CSS3" },
+      { "name": "Sass" }
+    ]
+  },
+
+  {
+    "id": "16",
+    "title": "Fire Checkers",
+    "slide": "portfolioFireCheckers",
+    "blurb": "Multiplayer Checkers game built on AngularJS + Firebase (in progress)",
+    "references": [
+      { "url": "https://github.com/kyleaclark/fire-checkers", "name": "GitHub" }
+    ],
+    "created": "March 1, 2014",
+    "updated": "March 1, 2014",
+    "descriptions": [
+      { "content": "Single page application using AngularJS + Firebase" },
+      { "content": "Full checkers game with multiplayer capability" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "NodeJS" },
+      { "name": "AngularJS" },
+      { "name": "Yeoman" },
+      { "name": "Grunt" },
+      { "name": "Bower" },
+      { "name": "HTML5" },
+      { "name": "CSS3" },
+      { "name": "Sass" }
+    ]
+  },
+
+  {
+    "id": "15",
+    "title": "CMS Live Editing",
+    "slide": "portfolioCmsPrototype",
+    "blurb": "Prototype web application to live edit CMS content",
+    "references": [
+      { "url": "https://github.com/kyleaclark/cms-live-prototype", "name": "GitHub" }
+    ],
+    "created": "December 1, 2013",
+    "updated": "January 1, 2014",
+    "descriptions": [
+      { "content": "Web application to utilize HTML5 contenteditable in a live CMS editor" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "NodeJS" },
+      { "name": "ExpressJS" },
+      { "name": "MongoDB" },
+      { "name": "Mongoose" },
+      { "name": "Grunt" },
+      { "name": "Bower" },
+      { "name": "RequireJS" },
+      { "name": "jQuery" },
+      { "name": "Handlebars" },
+      { "name": "HTML5" },
+      { "name": "CSS" }
+    ]
+  },
+
+  {
+    "id": "14",
+    "title": "Express on Handlebars",
+    "slide": "portfolioExpressTemplate",
+    "blurb": "Boilerplate template to utilize an Express application with Handlebars",
+    "references": [
+      { "url": "https://github.com/kyleaclark/express-on-handlebars-template", "name": "GitHub" }
+    ],
+    "created": "November 1, 2013",
+    "updated": "December 1, 2013",
+    "descriptions": [
+      { "content": "The application is a project template set up for a Node ExpressJS MVC app using Handlebars templating" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "NodeJS" },
+      { "name": "ExpressJS" },
+      { "name": "Grunt" },
+      { "name": "Bower" },
+      { "name": "RequireJS" },
+      { "name": "Handlebars" }
+    ]
+  },
+
+  {
+    "id": "13",
+    "title": "Mic Mac Moe",
+    "slide": "portfolioMicMacMoe",
+    "blurb": "Web application game created in JavaScript",
+    "references": [
+      { "url": "https://github.com/kyleaclark/mic-mac-moe", "name": "GitHub" }
+    ],
+    "created": "June 1, 2013",
+    "updated": "July 1, 2013",
+    "descriptions": [
+      { "content": "Web application of a cross between connect four and tic-tic-toe" }
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "jQuery" },
+      { "name": "UnderscoreJS" },
+      { "name": "JSON" },
+      { "name": "HTML5" },
+      { "name": "CSS3" }
+    ]
+  },
+
+  {
+    "id": "10",
+    "title": "Railroad Project",
+    "slide": "portfolioRailroad",
+    "blurb": "Object-Oriented Programming & Data Structures class project",
+    "references": [
+      { "url": "https://github.com/kyleaclark/railroad-project", "name": "GitHub" }
+    ],
+    "created": "April 1, 2011",
+    "updated": "April 1, 2011",
+    "descriptions": [
+      { "content": "Constructs complex railroad freight management" }
+    ],
+    "technologies": [
+      { "name": "Java" }
+    ]
+  },
+
+  {
+    "id": "9",
+    "title": "Banking Account",
+    "slide": "portfolioBankingAccount",
+    "blurb": "Object-Oriented Programming & Data Structures class project",
+    "references": [
+      { "url": "https://github.com/kyleaclark/banking-account", "name": "GitHub" }
+    ],
+    "created": "March 1, 2011",
+    "updated": "March 1, 2011",
+    "descriptions": [
+      { "content": "Implements basic banking account management program" }
+    ],
+    "technologies": [
+      { "name": "Java" }
+    ]
+  },
+
+  {
+    "id": "8",
+    "title": "Blackjack",
+    "slide": "portfolioBlackjack",
+    "blurb": "Object-Oriented Programming & Data Structures class project",
+    "references": [
+      { "url": "https://github.com/kyleaclark/blackjack", "name": "GitHub" }
+    ],
+    "created": "February 1, 2011",
+    "updated": "February 1, 2011",
+    "descriptions": [
+      { "content": "One person blackjack game with a dealer" }
+    ],
+    "technologies": [
+      { "name": "Java" }
+    ]
+  },
+
+  {
+    "id": "7",
+    "title": "Connect Four",
+    "slide": "portfolioConnectFour",
+    "blurb": "Desktop GUI application game created in C++",
+    "references": [
+      { "url": "https://github.com/kyleaclark/connect-four", "name": "GitHub" }
+    ],
+    "created": "May 1, 2005",
+    "updated": "April 1, 2006",
+    "descriptions": [
+      { "content": "Desktop GUI application to play a game of Connect Four" }
+    ],
+    "technologies": [
+      { "name": "C++" },
+      { "name": "Allegro Gaming Library" }
+    ]
+  },
+
+  {
+    "id": "6",
+    "title": "Time Calculator 2",
+    "slide": "portfolioTimeCalculator2",
+    "blurb": "Desktop GUI application created in Java",
+    "references": [
+      { "url": "https://github.com/kyleaclark/time-calculator-2", "name": "GitHub" }
+    ],
+    "created": "May 1, 2005",
+    "updated": "May 1, 2005",
+    "descriptions": [
+      { "content": "Desktop GUI application to calculate time" }
+    ],
+    "technologies": [
+      { "name": "Java" },
+      { "name": "Swing" }
+    ]
+  },
+
+  {
+    "id": "5",
+    "title": "Time Calculator 1",
+    "slide": "portfolioTimeCalculator1",
+    "blurb": "Desktop console application created in C++",
+    "references": [
+      { "url": "https://github.com/kyleaclark/time-calculator-1", "name": "GitHub" }
+    ],
+    "created": "August 1, 2004",
+    "updated": "February 1, 2005",
+    "descriptions": [
+      { "content": "Desktop console application to calculate time" }
+    ],
+    "technologies": [
+      { "name": "C++" }
+    ]
+  },
+
+  {
+    "id": "4",
+    "title": "Light",
+    "slide": "portfolioLight",
+    "blurb": "Desktop GUI application game created in C++",
+    "references": [
+      { "url": "https://github.com/kyleaclark/light", "name": "GitHub" }
+    ],
+    "created": "August 1, 2003",
+    "updated": "February 1, 2003",
+    "descriptions": [
+      { "content": "Play a multi-level, time-based maze puzzle game" }
+    ],
+    "technologies": [
+      { "name": "C++" },
+      { "name": "Allegro" }
+    ]
+  },
+
+  {
+    "id": "3",
+    "title": "Spaced Out",
+    "slide": "portfolioSpacedOut",
+    "blurb": "Desktop GUI application game created in C++",
+    "references": [
+      { "url": "https://github.com/kyleaclark/spaced-out", "name": "GitHub" }
+    ],
+    "created": "July 1, 2002",
+    "updated": "August 1, 2003",
+    "descriptions": [
+      { "content": "Play a space shooter game with real AI" },
+      { "content": "Uses a variety of trig functions to calculate collisions and move the enemy ships" }
+    ],
+    "technologies": [
+      { "name": "C++" },
+      { "name": "Allegro" }
+    ]
+  },
+
+  {
+    "id": "2",
+    "title": "dynamic toe",
+    "slide": "portfolioDynamicToe",
+    "blurb": "Desktop console application game created in C++",
+    "references": [
+      { "url": "https://github.com/kyleaclark/dynamic-toe", "name": "GitHub" }
+    ],
+    "created": "April 1, 2002",
+    "updated": "May 1, 2002",
+    "descriptions": [
+      { "content": "Desktop console application to play a game of tic-tac-toe with a dynamic game board size" }
+    ],
+    "technologies": [
+      { "name": "C++" }
+    ]
+  },
+
+  {
+    "id": "1",
+    "title": "Escape to Safety",
+    "slide": "portfolioEscapeToSafety",
+    "blurb": "Desktop console application game created in C++",
+    "references": [
+      { "url": "https://github.com/kyleaclark/escape-to-safety", "name": "GitHub" }
+    ],
+    "created": "March 1, 2002",
+    "updated": "April 1, 2002",
+    "descriptions": [
+      { "content": "Play a time-based maze puzzle game" },
+      { "content": "Other than a few simple Pascal programs, the first real program I developed in my Sophomore year of high school" }
+    ],
+    "technologies": [
+      { "name": "C++" }
+    ]
+  }
+
+]

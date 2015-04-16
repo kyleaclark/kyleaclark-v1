@@ -1,0 +1,39 @@
+/* --- [ Library ] --- */
+
+@import "lib/normalize";
+
+/* --- [ Base ] --- */
+
+@import "base/_variables";
+@import "base/_mixins";
+
+@import "base/typography";
+@import "base/helpers";
+@import "base/layout";
+
+/* --- [ Components ] --- */
+
+@import "components/navAccordion";
+@import "components/navSlider";
+@import "components/slideTitleContainer";
+@import "components/slides";
+
+/* --- [ Partials ] --- */
+
+/* Shared */
+@import "partials/header";
+@import "partials/footer";
+
+/* Home */
+@import "partials/home/about";
+@import "partials/home/background";
+@import "partials/home/experience";
+@import "partials/home/skills";
+@import "partials/home/education";
+@import "partials/home/contact";
+
+/* Projects */
+@import "partials/projects/projects";
+
+/* Gists */
+@import "partials/gists/gists";

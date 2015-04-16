@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" ng-app="root">
+  <head>
+    <meta charset="utf-8">
+    <title>Kyle A. Clark</title>
+    <meta name="description" content="">
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div ui-view=""></div>
+
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-37472408-1');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) /scripts/app.js -->
+
+      <!-- injector:js -->
+      <script src="/scripts/app.js"></script>
+      <script src="/scripts/common/-common.js"></script>
+      <script src="/scripts/common/utils/-utils.js"></script>
+      <script src="/scripts/common/utils/query-util.js"></script>
+      <script src="/scripts/common/widgets/-widgets.js"></script>
+      <script src="/scripts/common/widgets/directives/-directives.js"></script>
+      <script src="/scripts/common/widgets/directives/on-last-repeat-directive.js"></script>
+      <script src="/scripts/common/widgets/directives/partial-include-directive.js"></script>
+      <script src="/scripts/common/widgets/filters/-filters.js"></script>
+      <script src="/scripts/common/widgets/filters/to-js-date-filter.js"></script>
+      <script src="/scripts/components/-components.js"></script>
+      <script src="/scripts/components/side-nav/-side-nav.js"></script>
+      <script src="/scripts/components/side-nav/side-nav-accordion-directive.js"></script>
+      <script src="/scripts/components/side-nav/side-nav-slider-directive.js"></script>
+      <script src="/scripts/components/user-scroll/-user-scroll.js"></script>
+      <script src="/scripts/components/user-scroll/user-scroll-directive.js"></script>
+      <script src="/scripts/routes/-routes.js"></script>
+      <script src="/scripts/routes/blog/-blog.js"></script>
+      <script src="/scripts/routes/blog/blog-config.js"></script>
+      <script src="/scripts/routes/blog/blog-controller.js"></script>
+      <script src="/scripts/routes/home/-home.js"></script>
+      <script src="/scripts/routes/home/home-config.js"></script>
+      <script src="/scripts/routes/home/home-controller.js"></script>
+      <script src="/scripts/routes/portfolio/-portfolio.js"></script>
+      <script src="/scripts/routes/portfolio/portfolio-config.js"></script>
+      <script src="/scripts/routes/portfolio/portfolio-controller.js"></script>
+      <script src="/scripts/routes/routes-config.js"></script>
+      <script src="/scripts/system/-system.js"></script>
+      <script src="/scripts/system/system-config.js"></script>
+      <!-- endinjector -->
+
+    <!-- endbuild -->
+
+</body>
+</html>
