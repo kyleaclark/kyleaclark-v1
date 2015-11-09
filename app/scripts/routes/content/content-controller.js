@@ -1,5 +1,5 @@
-angular.module('root.routes.blog')
-  .controller('BlogController', function ($scope, $timeout, slides) {
+angular.module('root.routes.content')
+  .controller('ContentController', function ($scope, $timeout, slides) {
     'use strict';
 
     var self = this;

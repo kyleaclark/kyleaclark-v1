@@ -18,7 +18,7 @@
  <div>
    <h3>The Deets</h3>
    <ul>
-     <li><span>Created: {{ ::slide.created | toJsDate | date:'MM/yyyy'}}</span> &ndash; <span>Updated: {{ ::slide.updated | toJsDate | date:'MM/yyyy'}}</span></li>
+     <li><span>Created: {{ ::slide.created | toJsDate | date:'MM/yyyy'}}</span></li>
      <li ng-repeat="description in slide.descriptions"><span>{{ ::description.content }}</span></li>
    </ul>
  </div>
@@ -35,7 +35,7 @@
 
 <section class="slide-block-techs">
  <div>
-   <h3>Technologies Utilized</h3>
+   <h3>Technologies</h3>
    <p ng-repeat="tech in slide.technologies">{{ ::tech.name }}<span ng-show="!$last">,</span></p>
  </div>
 </section>
