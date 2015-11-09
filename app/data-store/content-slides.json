@@ -11,6 +11,7 @@
     "created": "March 24, 2015",
     "updated": "March 24, 2015",
     "descriptions": [
+      { "content": "Written under SRC:CLR company content" }
     ],
     "technologies": [
       { "name": "JavaScript" },
@@ -29,6 +30,7 @@
     "created": "March 5, 2015",
     "updated": "March 5, 2015",
     "descriptions": [
+      { "content": "Written under SRC:CLR company content" }
     ],
     "technologies": [
       { "name": "JavaScript" },
@@ -47,6 +49,7 @@
     "created": "February 19, 2015",
     "updated": "February 19, 2015",
     "descriptions": [
+      { "content": "Written under SRC:CLR company content" }
     ],
     "technologies": [
       { "name": "JavaScript" }
