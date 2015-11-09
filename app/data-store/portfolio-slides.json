@@ -1,6 +1,80 @@
 [
 
   {
+    "id": "22",
+    "title": "Ballcruncher",
+    "slide": "portfolioBallcruncher",
+    "blurb": "Sports analytics website",
+    "references": [
+      { "url": "https://github.com/kyleaclark/ballcruncher", "name": "GitHub" }
+    ],
+    "created": "May 2, 2015",
+    "updated": "May 3, 2015",
+    "descriptions": [
+      { "content": "Sports analytics website providing unique insights and statistics" }
+    ],
+    "technologies": [
+      { "name": "Node, MongoDB, Javascript, React, Webpack" }
+    ]
+  },
+
+  {
+    "id": "21",
+    "title": "NFL Power Rankings",
+    "slide": "portfolioNflPowerRankings",
+    "blurb": "Python program to calculate weekly NFL power rankings",
+    "references": [
+      { "url": "https://github.com/kyleaclark/nfl-power-rankings", "name": "GitHub" }
+    ],
+    "created": "May 2, 2015",
+    "updated": "May 3, 2015",
+    "descriptions": [
+      { "content": "Calculates weekly NFL power rankings with a data model consisting of win value and other stats" }
+    ],
+    "technologies": [
+      { "name": "Python" }
+    ]
+  },
+
+  {
+    "id": "20",
+    "title": "fantasy football stats",
+    "slide": "portfolioFantasyFootballStats",
+    "blurb": "Python program to calculate fantasy football player values",
+    "references": [
+      { "url": "https://github.com/kyleaclark/fantasy-football-stats", "name": "GitHub" }
+    ],
+    "created": "May 2, 2015",
+    "updated": "May 3, 2015",
+    "descriptions": [
+      { "content": "Calculates fantasy football player values +/- from their 2014 stats and exports CSV files for the position groups QB, RB, WR, TE "}
+    ],
+    "technologies": [
+      { "name": "Python" }
+    ]
+  },
+
+  {
+    "id": "20",
+    "title": "react table component",
+    "slide": "portfolioReactTableComponent",
+    "blurb": "React table component of sortable column and rows",
+    "references": [
+      { "url": "https://github.com/kyleaclark/react-table-component", "name": "GitHub" }
+    ],
+    "created": "May 2, 2015",
+    "updated": "May 3, 2015",
+    "descriptions": [
+    ],
+    "technologies": [
+      { "name": "JavaScript" },
+      { "name": "ReactJS" },
+      { "name": "Gulp" },
+      { "name": "Browserify" }
+    ]
+  },
+
+  {
     "id": "19",
     "title": "kyleaclark.com",
     "slide": "portfolioKyleAClark",
@@ -29,41 +103,6 @@
 
   {
     "id": "18",
-    "title": "Mic Mac Moe JS",
-    "slide": "portfolioMicMacMoeJs",
-    "blurb": "Web application game created in JavaScript",
-    "references": [
-      { "url": "http://micmacmoejs.com", "name": "Website" },
-      { "url": "https://github.com/kyleaclark/mic-mac-moe-2", "name": "GitHub" }
-    ],
-    "created": "August 1, 2013",
-    "updated": "February 1, 2014",
-    "descriptions": [
-      { "content": "Web application of a cross between tic-tic-toe and connect four" },
-      { "content": "Refactored a new build and expanded functionality of the original version" },
-      { "content": "Responsively designed for all device sizes" }
-    ],
-    "technologies": [
-      { "name": "JavaScript" },
-      { "name": "NodeJS" },
-      { "name": "Docpad" },
-      { "name": "Grunt" },
-      { "name": "Bower" },
-      { "name": "RequireJS" },
-      { "name": "CoffeeScript" },
-      { "name": "Eco" },
-      { "name": "jQuery" },
-      { "name": "UnderscoreJS" },
-      { "name": "JSON" },
-      { "name": "HTML5" },
-      { "name": "CSS3" },
-      { "name": "Sass" },
-      { "name": "Responsive Design"}
-    ]
-  },
-
-  {
-    "id": "17",
     "title": "Game of Life",
     "slide": "projectsGameOfLife",
     "blurb": "Conway's Game of Life built on AngularJS",
@@ -93,29 +132,36 @@
   },
 
   {
-    "id": "16",
-    "title": "Fire Checkers",
-    "slide": "portfolioFireCheckers",
-    "blurb": "Multiplayer Checkers game built on AngularJS + Firebase (in progress)",
+    "id": "17",
+    "title": "Mic Mac Moe JS",
+    "slide": "portfolioMicMacMoeJs",
+    "blurb": "Web application game created in JavaScript",
     "references": [
-      { "url": "https://github.com/kyleaclark/fire-checkers", "name": "GitHub" }
+      { "url": "https://github.com/kyleaclark/mic-mac-moe-2", "name": "GitHub" }
     ],
-    "created": "March 1, 2014",
-    "updated": "March 1, 2014",
+    "created": "August 1, 2013",
+    "updated": "February 1, 2014",
     "descriptions": [
-      { "content": "Single page application using AngularJS + Firebase" },
-      { "content": "Full checkers game with multiplayer capability" }
+      { "content": "Web application of a cross between tic-tic-toe and connect four" },
+      { "content": "Refactored a new build and expanded functionality of the original version" },
+      { "content": "Responsively designed for all device sizes" }
     ],
     "technologies": [
       { "name": "JavaScript" },
       { "name": "NodeJS" },
-      { "name": "AngularJS" },
-      { "name": "Yeoman" },
+      { "name": "Docpad" },
       { "name": "Grunt" },
       { "name": "Bower" },
+      { "name": "RequireJS" },
+      { "name": "CoffeeScript" },
+      { "name": "Eco" },
+      { "name": "jQuery" },
+      { "name": "UnderscoreJS" },
+      { "name": "JSON" },
       { "name": "HTML5" },
       { "name": "CSS3" },
-      { "name": "Sass" }
+      { "name": "Sass" },
+      { "name": "Responsive Design"}
     ]
   },
 
@@ -149,30 +195,6 @@
   },
 
   {
-    "id": "14",
-    "title": "Express on Handlebars",
-    "slide": "portfolioExpressTemplate",
-    "blurb": "Boilerplate template to utilize an Express application with Handlebars",
-    "references": [
-      { "url": "https://github.com/kyleaclark/express-on-handlebars-template", "name": "GitHub" }
-    ],
-    "created": "November 1, 2013",
-    "updated": "December 1, 2013",
-    "descriptions": [
-      { "content": "The application is a project template set up for a Node ExpressJS MVC app using Handlebars templating" }
-    ],
-    "technologies": [
-      { "name": "JavaScript" },
-      { "name": "NodeJS" },
-      { "name": "ExpressJS" },
-      { "name": "Grunt" },
-      { "name": "Bower" },
-      { "name": "RequireJS" },
-      { "name": "Handlebars" }
-    ]
-  },
-
-  {
     "id": "13",
     "title": "Mic Mac Moe",
     "slide": "portfolioMicMacMoe",
@@ -192,60 +214,6 @@
       { "name": "JSON" },
       { "name": "HTML5" },
       { "name": "CSS3" }
-    ]
-  },
-
-  {
-    "id": "10",
-    "title": "Railroad Project",
-    "slide": "portfolioRailroad",
-    "blurb": "Object-Oriented Programming & Data Structures class project",
-    "references": [
-      { "url": "https://github.com/kyleaclark/railroad-project", "name": "GitHub" }
-    ],
-    "created": "April 1, 2011",
-    "updated": "April 1, 2011",
-    "descriptions": [
-      { "content": "Constructs complex railroad freight management" }
-    ],
-    "technologies": [
-      { "name": "Java" }
-    ]
-  },
-
-  {
-    "id": "9",
-    "title": "Banking Account",
-    "slide": "portfolioBankingAccount",
-    "blurb": "Object-Oriented Programming & Data Structures class project",
-    "references": [
-      { "url": "https://github.com/kyleaclark/banking-account", "name": "GitHub" }
-    ],
-    "created": "March 1, 2011",
-    "updated": "March 1, 2011",
-    "descriptions": [
-      { "content": "Implements basic banking account management program" }
-    ],
-    "technologies": [
-      { "name": "Java" }
-    ]
-  },
-
-  {
-    "id": "8",
-    "title": "Blackjack",
-    "slide": "portfolioBlackjack",
-    "blurb": "Object-Oriented Programming & Data Structures class project",
-    "references": [
-      { "url": "https://github.com/kyleaclark/blackjack", "name": "GitHub" }
-    ],
-    "created": "February 1, 2011",
-    "updated": "February 1, 2011",
-    "descriptions": [
-      { "content": "One person blackjack game with a dealer" }
-    ],
-    "technologies": [
-      { "name": "Java" }
     ]
   },
 
@@ -346,7 +314,7 @@
 
   {
     "id": "2",
-    "title": "dynamic toe",
+    "title": "Dynamic Toe",
     "slide": "portfolioDynamicToe",
     "blurb": "Desktop console application game created in C++",
     "references": [
